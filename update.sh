@@ -7,6 +7,9 @@ URLS=(
     "https://download-test.tsl.ti-dienste.de/ECC/ECC-RSA_TSL-test.xml"
 )
 
+# update the repository
+git pull origin
+
 # Base directory where files will be stored
 BASE_DIR="downloads"
 
@@ -38,3 +41,6 @@ for URL in "${URLS[@]}"; do
     cd - > /dev/null
 
 done
+
+# push the changes to the remote repository
+git push origin
