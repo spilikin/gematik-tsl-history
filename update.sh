@@ -3,8 +3,11 @@
 # Array of URLs
 URLS=(
     "https://download.tsl.ti-dienste.de/ECC/ECC-RSA_TSL.xml"
+    "https://download.tsl.ti-dienste.de/ECC/ROOT-CA/roots.json"
     "https://download-ref.tsl.ti-dienste.de/ECC/ECC-RSA_TSL-ref.xml"
+    "https://download-ref.tsl.ti-dienste.de/ECC/ROOT-CA/roots.json"
     "https://download-test.tsl.ti-dienste.de/ECC/ECC-RSA_TSL-test.xml"
+    "https://download-test.tsl.ti-dienste.de/ECC/ROOT-CA/roots.json"
 )
 
 # update the repository
@@ -35,6 +38,7 @@ for URL in "${URLS[@]}"; do
     # Check if the file has changed
     cd "$DIR" || exit
     git add "$FILE_NAME"
+    echo "Updated $FILE_NAME from $URL"
     if ! git diff --cached --quiet; then
         git commit -m "Updated $FILE_NAME from $URL"
     fi
