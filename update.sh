@@ -8,6 +8,12 @@ URLS=(
     "https://download-ref.tsl.ti-dienste.de/ECC/ROOT-CA/roots.json"
     "https://download-test.tsl.ti-dienste.de/ECC/ECC-RSA_TSL-test.xml"
     "https://download-test.tsl.ti-dienste.de/ECC/ROOT-CA/roots.json"
+    "http://download.crl.ti-dienste.de/TSL-ECC/ECC-RSA_TSL.ocsp"
+    "http://download.crl.ti-dienste.de/TSL-ECC/ECC-RSA_TSL.sig"
+    "http://download.crl.ti-dienste.de/TSL-ECC/ECC-RSA_TSL.xml"
+    "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.ocsp"
+    "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.sig"
+    "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.xml"
 )
 
 # update the repository
