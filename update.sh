@@ -14,6 +14,7 @@ URLS=(
     "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.ocsp"
     "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.sig"
     "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.xml"
+    "https://tl.bundesnetzagentur.de/TL-DE.XML"
 )
 
 # update the repository
