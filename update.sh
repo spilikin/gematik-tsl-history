@@ -10,8 +10,8 @@ URLS=(
     "https://download-test.tsl.ti-dienste.de/ECC/ROOT-CA/roots.json"
     "http://download.crl.ti-dienste.de/TSL-ECC/ECC-RSA_TSL.sig"
     "http://download.crl.ti-dienste.de/TSL-ECC/ECC-RSA_TSL.xml"
-    "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.sig"
-    "http://download-testref.crl.ti-dienste.de/TSL-RSA-ref/TSL-ref.xml"
+    "http://download-testref.crl.ti-dienste.de/TSL-ECC-ref/ECC-RSA_TSL-ref.xml"
+    "http://download-testref.crl.ti-dienste.de/TSL-ECC-ref/ECC-RSA_TSL-ref.sig"
     "https://tl.bundesnetzagentur.de/TL-DE.XML"
 )
 
