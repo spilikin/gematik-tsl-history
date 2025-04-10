@@ -26,30 +26,41 @@ mkdir -p "$BASE_DIR"
 
 # Iterate over URLs
 for URL in "${URLS[@]}"; do
-    # Extract domain name
-    DOMAIN=$(echo "$URL" | awk -F/ '{print $3}')
-    
-    # Create subdirectory for the domain
-    DIR="$BASE_DIR/$DOMAIN"
-    mkdir -p "$DIR"
-    
-    # Extract filename
-    FILE_NAME=$(basename "$URL")
-    FILE_PATH="$DIR/$FILE_NAME"
-    
-    # Download the file
-    curl -s -o "$FILE_PATH" "$URL"
-    
-    # Check if the file has changed
-    cd "$DIR" || exit
-    git add "$FILE_NAME"
-    echo "Updated $FILE_NAME from $URL"
-    if ! git diff --cached --quiet; then
-        git commit -m "Updated $FILE_NAME from $URL"
-    fi
-    cd - > /dev/null
+    # Extract FQDN
+    FQDN=$(echo "$URL" | sed -E 's~^[a-z]+://([^/]+).*~\1~')
 
+    # Extract filename (strip query and fragment first)
+    FILENAME=$(basename "$(echo "$URL" | sed -E 's~[?#].*~~')")
+
+    # Extract the path part
+    PATH_PART=$(echo "$URL" | sed -E 's~^[a-z]+://[^/]+(/[^?#]*)?.*~\1~')
+
+    # Determine directory (remove leading slash)
+    if [[ -z "$PATH_PART" || "$PATH_PART" == "$FILENAME" ]]; then
+        DIR="."
+    else
+        DIR=$(dirname "$PATH_PART")
+        DIR="${DIR#/}"  # Remove leading slash
+        [[ -z "$DIR" || "$DIR" == "." ]] && DIR="."
+    fi    
+
+    # Create target directory
+    TARGET_DIR="./downloads/$FQDN/$DIR"
+    mkdir -p "$TARGET_DIR"
+
+    # Check HTTP status
+    HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
+
+    if [[ "$HTTP_STATUS" == "200" ]]; then
+        echo "Downloading '${URL}' to '$TARGET_DIR/$FILENAME'"
+        curl -s -L "$URL" -o "$TARGET_DIR/$FILENAME"
+        # Add to git and commit
+        git add "$TARGET_DIR/$FILENAME"
+        git commit -m "Updared $URL"
+    else
+        echo "Error: HTTP status $HTTP_STATUS for URL: $URL" >&2
+    fi
 done
 
 # push the changes to the remote repository
-git push origin
+#git push origin
