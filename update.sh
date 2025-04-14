@@ -56,7 +56,7 @@ for URL in "${URLS[@]}"; do
         curl -s -L "$URL" -o "$TARGET_DIR/$FILENAME"
         # Add to git and commit
         git add "$TARGET_DIR/$FILENAME"
-        git commit -m "Updared $URL"
+        git commit -m "Updated $URL"
     else
         echo "Error: HTTP status $HTTP_STATUS for URL: $URL" >&2
     fi
