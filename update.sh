@@ -63,4 +63,4 @@ for URL in "${URLS[@]}"; do
 done
 
 # push the changes to the remote repository
-#git push origin
+git push origin
