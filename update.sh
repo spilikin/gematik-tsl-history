@@ -64,7 +64,7 @@ for URL in "${URLS[@]}"; do
     # If the file is an XML file, generate a pretty-printed version
     if [[ "$FILENAME" == *.xml || "$FILENAME" == *.XML ]]; then
         PRETTY_FILE="$TARGET_DIR/${FILENAME%.xml}-pretty.xml"
-        python -c 'import sys;import xml.dom.minidom;s=sys.stdin.read();print(xml.dom.minidom.parseString(s).toprettyxml())' < "$TARGET_DIR/$FILENAME" > "$PRETTY_FILE"
+        python3 -c 'import sys;import xml.dom.minidom;s=sys.stdin.read();print(xml.dom.minidom.parseString(s).toprettyxml())' < "$TARGET_DIR/$FILENAME" > "$PRETTY_FILE"
         echo "Generated pretty-printed version: '$PRETTY_FILE'"
         # Add pretty-printed file to git and commit
         git add "$PRETTY_FILE"
