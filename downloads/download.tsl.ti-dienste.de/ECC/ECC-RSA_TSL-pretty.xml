@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31030220250913230005Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31030320250927230006Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10302</TSLSequenceNumber>
+		<TSLSequenceNumber>10303</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2025-09-13T23:00:05Z</ListIssueDateTime>
+		<ListIssueDateTime>2025-09-27T23:00:06Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2025-10-13T23:00:05Z</dateTime>
+			<dateTime>2025-10-27T23:00:06Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -5730,30 +5730,6 @@
 					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
 						<ServiceName>
-							<Name xml:lang="DE">CN=SGD1-IBM C.SGD-HSM.AUT 14.09.2020,O=IBM,C=DE</Name>
-						</ServiceName>
-						<ServiceDigitalIdentity>
-							<DigitalId>
-								<X509Certificate>MIICuTCCAmCgAwIBAgIDAYjGMAoGCCqGSM49BAMCMG8xCzAJBgNVBAYTAkRFMRUwEwYDVQQKDAxnZW1hdGlrIEdtYkgxMjAwBgNVBAsMKUtvbXBvbmVudGVuLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMRUwEwYDVQQDDAxHRU0uS09NUC1DQTQwHhcNMjAwOTE0MTAzMzA0WhcNMjUwOTEzMTAzMzAzWjBHMQswCQYDVQQGEwJERTEMMAoGA1UECgwDSUJNMSowKAYDVQQDDCFTR0QxLUlCTSBDLlNHRC1IU00uQVVUIDE0LjA5LjIwMjAwWjAUBgcqhkjOPQIBBgkrJAMDAggBAQcDQgAEnccha9qZAtDl26ZybZnXjIuXREab1b+SxtXxu0N4aLaY0FXevQ7AHmI3zE+wjcxpgdb7QodfKJ/bf+A6EpDNNKOCARAwggEMMB0GA1UdDgQWBBSu2T4uUTN8TwzYtNqNjXtOpJK0sjAfBgNVHSMEGDAWgBQCVeLbIc+0Kx2trdge/ERh/uO1sDBCBggrBgEFBQcBAQQ2MDQwMgYIKwYBBQUHMAGGJmh0dHA6Ly9vY3NwMi5rb21wLWNhLnRlbGVtYXRpay9vY3NwL2VjMAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgeAMCEGA1UdIAQaMBgwCgYIKoIUAEwEgSMwCgYIKoIUAEwEgVYwRQYFKyQIAwMEPDA6MDgwNjA0MDIwJAwiSFNNIFNjaGzDvHNzZWxnZW5lcmllcnVuZ3NkaWVuc3QgMTAKBggqghQATASBWzAKBggqhkjOPQQDAgNHADBEAiAH8QbESN1KWopUa4Ug5l9gbDAry7E8ZLrk1fABKz/2BwIgRMoYq9ItU6M76gi/8LYMDrgS0bA7oV+TNnI5XnGT2vo=</X509Certificate>
-							</DigitalId>
-						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2020-09-14T10:33:00Z</StatusStartingTime>
-						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
-						</ServiceSupplyPoints>
-						<ServiceInformationExtensions>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
-							</Extension>
-						</ServiceInformationExtensions>
-					</ServiceInformation>
-				</TSPService>
-				<TSPService>
-					<ServiceInformation>
-						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
-						<ServiceName>
 							<Name xml:lang="DE">CN=SGD1-IBM C.SGD-HSM.AUT 27.11.2024,O=IBM,C=DE</Name>
 						</ServiceName>
 						<ServiceDigitalIdentity>
@@ -8758,28 +8734,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1757804405889">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1759014006692">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1757804405885" URI="">
+			<ds:Reference Id="Reference-TSL-1759014006668" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>joIlrhu2Fopr8UmvVVNA+JYheRmaGUU/4uAQBlWqcgI=</ds:DigestValue>
+				<ds:DigestValue>9mDZyXXYW1J/eYnJjO/eQEI7m//8zeqi9tTGWdzuuE8=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1757804405889" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1757804405889">
+			<ds:Reference Id="Reference-SignedProperties-1759014006693" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1759014006692">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>v5IrkiXbWrf09WsKk/TwiUCvp/oGYDrKniUqxOKRJ8A=</ds:DigestValue>
+				<ds:DigestValue>3VTrga/wpIpdxtzmB9/VCVCb31xHok19feEDn28dkj8=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>SzHxpSCr3CbVEPJ+dwLJfJg6rTEoTMvvE8IythFDzzle96zQGiItNve7KMB9CbXSLm/OoCgnEmlR
-vUg3YhMSFg==</ds:SignatureValue>
+		<ds:SignatureValue>a9alvkfPLUFs3LLZIJxCeJIMH+z7RvJExCH2c4TaspSQC5Zn8xptzkV1CJXuFJcKFwGW0JIZTtMe
+WegT2CDouw==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICajCCAhCgAwIBAgIBBjAKBggqhkjOPQQDAjBtMQswCQYDVQQGEwJERTEVMBMGA1UECgwMZ2Vt
@@ -8796,10 +8772,10 @@ qaLK4zFc8FTsYzYmfbnPpATXAiA0EMb+jIf5YvHh58Y05RrlfqsOr6MNQfIxXRzrzFy2eA==</ds:X50
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1757804405889">
-				<xades:SignedProperties Id="SignedProperties-1757804405889">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1759014006692">
+				<xades:SignedProperties Id="SignedProperties-1759014006692">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2025-09-13T23:00:05Z</xades:SigningTime>
+						<xades:SigningTime>2025-09-27T23:00:06Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -8814,7 +8790,7 @@ qaLK4zFc8FTsYzYmfbnPpATXAiA0EMb+jIf5YvHh58Y05RrlfqsOr6MNQfIxXRzrzFy2eA==</ds:X50
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1757804405885">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1759014006668">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
