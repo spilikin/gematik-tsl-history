@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31062920251017095546Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31063020251022114609Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10629</TSLSequenceNumber>
+		<TSLSequenceNumber>10630</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2025-10-17T09:55:46Z</ListIssueDateTime>
+		<ListIssueDateTime>2025-10-22T11:46:09Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2025-11-16T09:55:46Z</dateTime>
+			<dateTime>2025-11-21T11:46:09Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -1310,17 +1310,17 @@
 					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
 						<ServiceName>
-							<Name xml:lang="DE">CN=wl-ti-gateway-nutzerportal-dev.wlcle.org,O=equensWorldline SE Germany TEST-ONLY - NOT-VALID,C=DE</Name>
+							<Name xml:lang="DE">CN=wl-ti-gateway-nutzerportal-tu.wlcle.org,O=equensWorldline SE Germany TEST-ONLY - NOT-VALID,C=DE</Name>
 						</ServiceName>
 						<ServiceDigitalIdentity>
 							<DigitalId>
-								<X509Certificate>MIIDTTCCAvSgAwIBAgIDAKVQMAoGCCqGSM49BAMCMIGEMQswCQYDVQQGEwJERTEfMB0GA1UECgwWZ2VtYXRpayBHbWJIIE5PVC1WQUxJRDEyMDAGA1UECwwpS29tcG9uZW50ZW4tQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxIDAeBgNVBAMMF0dFTS5LT01QLUNBNTYgVEVTVC1PTkxZMB4XDTI1MTAwOTA2NDkyNloXDTMwMTAwODA2NDkyNVowezELMAkGA1UEBhMCREUxOTA3BgNVBAoMMGVxdWVuc1dvcmxkbGluZSBTRSBHZXJtYW55IFRFU1QtT05MWSAtIE5PVC1WQUxJRDExMC8GA1UEAwwod2wtdGktZ2F0ZXdheS1udXR6ZXJwb3J0YWwtZGV2LndsY2xlLm9yZzBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAAQ7UeGhrhqe6VlbxMTzDp6av3nMZoSaZdUeW4VUqBsAVZQsEBoeu5QiUZchx4/El7RiUY2Fek1LuJhwV6XmLXw/o4IBWjCCAVYwHQYDVR0OBBYEFNnzK6pObN6PIfvzt/od51vg8koZMB8GA1UdIwQYMBaAFNW4HHmJo6WtxY22/lv+EDcDnQPDME0GCCsGAQUFBwEBBEEwPzA9BggrBgEFBQcwAYYxaHR0cDovL2Rvd25sb2FkLXRlc3RyZWYuY3JsLnRpLWRpZW5zdGUuZGUvb2NzcC9lYzAOBgNVHQ8BAf8EBAMCB4AwIQYDVR0gBBowGDAKBggqghQATASBIzAKBggqghQATASBKTAzBgNVHREELDAqgih3bC10aS1nYXRld2F5LW51dHplcnBvcnRhbC1kZXYud2xjbGUub3JnMAwGA1UdEwEB/wQCMAAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwOgYFKyQIAwMEMTAvMC0wKzApMCcwGQwXVEktR2F0ZXdheSBadWdhbmdzbW9kdWwwCgYIKoIUAEwEgjUwCgYIKoZIzj0EAwIDRwAwRAIgRF0gGGfIO2Ykr6JYbXyFEZHD8wZwEZzexJuS6xbG1oECIH8YQCfjKSum38tBihgfiVczRUm7wKvS0JqIJ/MM/1i8</X509Certificate>
+								<X509Certificate>MIIDTDCCAvKgAwIBAgIDAKVSMAoGCCqGSM49BAMCMIGEMQswCQYDVQQGEwJERTEfMB0GA1UECgwWZ2VtYXRpayBHbWJIIE5PVC1WQUxJRDEyMDAGA1UECwwpS29tcG9uZW50ZW4tQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxIDAeBgNVBAMMF0dFTS5LT01QLUNBNTYgVEVTVC1PTkxZMB4XDTI1MTAwOTA2NTkxMloXDTMwMTAwODA2NTkxMVowejELMAkGA1UEBhMCREUxOTA3BgNVBAoMMGVxdWVuc1dvcmxkbGluZSBTRSBHZXJtYW55IFRFU1QtT05MWSAtIE5PVC1WQUxJRDEwMC4GA1UEAwwnd2wtdGktZ2F0ZXdheS1udXR6ZXJwb3J0YWwtdHUud2xjbGUub3JnMFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABB4hsWlM4HYHaeg0psTyLbfG1312Th6eFjeTd96jMX40XAentD55PeHcZYNLs7scacmtMXuk+I3UoOhb2npD5FSjggFZMIIBVTAdBgNVHQ4EFgQUjqEj9iXOdKflN784cbM/WEGLH5gwHwYDVR0jBBgwFoAU1bgceYmjpa3Fjbb+W/4QNwOdA8MwTQYIKwYBBQUHAQEEQTA/MD0GCCsGAQUFBzABhjFodHRwOi8vZG93bmxvYWQtdGVzdHJlZi5jcmwudGktZGllbnN0ZS5kZS9vY3NwL2VjMA4GA1UdDwEB/wQEAwIHgDAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIEpMDIGA1UdEQQrMCmCJ3dsLXRpLWdhdGV3YXktbnV0emVycG9ydGFsLXR1LndsY2xlLm9yZzAMBgNVHRMBAf8EAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMDoGBSskCAMDBDEwLzAtMCswKTAnMBkMF1RJLUdhdGV3YXkgWnVnYW5nc21vZHVsMAoGCCqCFABMBII1MAoGCCqGSM49BAMCA0gAMEUCIG002NTekD8bLEP/rfZQ6NBZWgHsCqXXEbF+5780NiJxAiEAjywutxObGkFWHeybc6N2Kag3QF5LkUydUMWoBjR7m7M=</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2025-10-09T06:50:00Z</StatusStartingTime>
+						<StatusStartingTime>2025-10-09T07:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>https://wl-ti-gateway-nutzerportal-dev.wlcle.org</ServiceSupplyPoint>
+							<ServiceSupplyPoint>https://wl-ti-gateway-nutzerportal-tu.wlcle.org</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
@@ -2700,6 +2700,86 @@
 				</TSPService>
 				<TSPService>
 					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-CA9 TEST-ONLY,OU=eGK alternative Vers-Ident-CA der Telematikinfrastruktur,O=Eviden Germany GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDDTCCArSgAwIBAgIBCDAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxHDAaBgNVBAMME0dFTS5SQ0ExMSBURVNULU9OTFkwHhcNMjUxMDE2MDc1OTIxWhcNMzMxMDE0MDc1OTIwWjCBnjELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEkMCIGA1UEAwwbQVRPUy5FR0stQUxWSS1DQTkgVEVTVC1PTkxZMFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABCrTT5VTLtha1way8HhINUTez9rjgAjkILtfWW8trJ5iAYJoLApU2cA93mRE+e02ewzxuuIG8F3+yMJ0MKY05nSjgfswgfgwHQYDVR0OBBYEFLRw6LVsO+tbuD48owAdw+ZIV7oTMB8GA1UdIwQYMBaAFAIKFibp819CYinunJKLBTOX3nIUMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDAOBgNVHQ8BAf8EBAMCAQYwRgYDVR0gBD8wPTA7BggqghQATASBIzAvMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmdlbWF0aWsuZGUvZ28vcG9saWNpZXMwEgYDVR0TAQH/BAgwBgEB/wIBADAKBggqhkjOPQQDAgNHADBEAiAoJfJq3Jrp6p29fyq0OzKPCnbbHSaa72D3QX98nJDyvgIgQazHH+p5Zhcr8ho2y/yb3zur1bvuEY7tTjPxToGk3sY=</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-16T08:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp1-testref.atos.tsp-egk.telematik-test</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.212</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_aut_alt</ns:ExtensionValue>
+							</Extension>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-OCSP9 TEST-ONLY,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIChjCCAi2gAwIBAgIBATAKBggqhkjOPQQDAjCBnjELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEkMCIGA1UEAwwbQVRPUy5FR0stQUxWSS1DQTkgVEVTVC1PTkxZMB4XDTI1MTAyMDExMjg1OVoXDTMwMTAyMDExMjg1OVowajELMAkGA1UEBhMCREUxMzAxBgNVBAoMKkF0b3MgSW5mb3JtYXRpb24gVGVjaG5vbG9neSBHbWJIIE5PVC1WQUxJRDEmMCQGA1UEAwwdQVRPUy5FR0stQUxWSS1PQ1NQOSBURVNULU9OTFkwWjAUBgcqhkjOPQIBBgkrJAMDAggBAQcDQgAETU4aQsUGt33F8sOjZ7sNVZllmYycwgnENjIOKMM/0YiFOKUKmPrVMXb5V/JjnOpxgQg19RmF+eTvdqkIBJS5wKOBjTCBijAdBgNVHQ4EFgQU4HrGPnlT8AV5XQQUJ2G+3a56xXowDgYDVR0PAQH/BAQDAgZAMAwGA1UdEwEB/wQCMAAwFQYDVR0gBA4wDDAKBggqghQATASBIzAfBgNVHSMEGDAWgBS0cOi1bDvrW7g+PKMAHcPmSFe6EzATBgNVHSUEDDAKBggrBgEFBQcDCTAKBggqhkjOPQQDAgNHADBEAiAtTumSdTYbU9vunIGzHZeEeeBP482DsmDIwSo2Xi2DEgIgdmkqxAKUheDVYzFgjLpNjrNmNgGjfFhDqGuNNUrp5gE=</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-20T11:29:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-CA10 TEST-ONLY,OU=eGK alternative Vers-Ident-CA der Telematikinfrastruktur,O=Eviden Germany GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDDzCCArWgAwIBAgIBCzAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxHDAaBgNVBAMME0dFTS5SQ0ExMSBURVNULU9OTFkwHhcNMjUxMDE2MDc1OTI5WhcNMzMxMDE0MDc1OTI4WjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTEwIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAAQtixWSSx1x2ssvA8upaDoxhVbjRuOFzt9gW10WZ8IY32yQslWv2NOxvnksLjYx+ETRG4dc7hCaBEaqQglYhr4ro4H7MIH4MB0GA1UdDgQWBBRrn19rFWJCjd2XcyWW6c+hNJ6bpDAfBgNVHSMEGDAWgBQCChYm6fNfQmIp7pySiwUzl95yFDBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMBIGA1UdEwEB/wQIMAYBAf8CAQAwCgYIKoZIzj0EAwIDSAAwRQIhAKhbWyNox/PkVceUmivigyCvvZ11venwMtBdD/baeHurAiBAPYhjn7QTdjYe9C1O+O0VO8jXXDP+rd352ywZlsxy4A==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-16T08:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp1-testref.atos.tsp-egk.telematik-test</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.212</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_aut_alt</ns:ExtensionValue>
+							</Extension>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
 						<ServiceName>
 							<Name xml:lang="DE">CN=EVIDEN.SMCB-OCSP1 TEST-ONLY,O=Eviden Germany GmbH NOT-VALID,C=DE</Name>
@@ -2718,6 +2798,58 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-OCSP12 TEST-ONLY,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICiTCCAi+gAwIBAgIBATAKBggqhkjOPQQDAjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTEyIFRFU1QtT05MWTAeFw0yNTEwMjAxMTM1NTVaFw0zMDEwMjAxMTM1NTVaMGsxCzAJBgNVBAYTAkRFMTMwMQYDVQQKDCpBdG9zIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kgR21iSCBOT1QtVkFMSUQxJzAlBgNVBAMMHkFUT1MuRUdLLUFMVkktT0NTUDEyIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAARhld7+YNRbP5EaodNGYDcIdExd12d1eyvTNEcIBDpqsqMQJ3pkxLIVjRkW4rPmXfQxQsjKrEWv0RKJSlzpocEJo4GNMIGKMB0GA1UdDgQWBBQGum/RT0xnoT0J/DNbm8iPUpLbNDAOBgNVHQ8BAf8EBAMCBkAwDAYDVR0TAQH/BAIwADAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMB8GA1UdIwQYMBaAFCOAwxf0GInZzPuGpFhxn04RLmWiMBMGA1UdJQQMMAoGCCsGAQUFBwMJMAoGCCqGSM49BAMCA0gAMEUCIH2e9zASNC/o9zdtfyMXkX+1QX2RadkRbhFDQouIzQ4tAiEAj37W2k6sIu6CUdyPwxdwAfmFhXUKjNCpepXEpqsOlZk=</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-20T11:36:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-CA11 TEST-ONLY,OU=eGK alternative Vers-Ident-CA der Telematikinfrastruktur,O=Eviden Germany GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDDzCCArWgAwIBAgIBCjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxHDAaBgNVBAMME0dFTS5SQ0ExMSBURVNULU9OTFkwHhcNMjUxMDE2MDc1OTI3WhcNMzMxMDE0MDc1OTI2WjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTExIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAARc38WAf66H1xxPn5JfHqiCrAyljI562NKm+h6EfoFoyD7yxEsSt5jHgyzh0Xd8FASuwwMWAUn/BYQO4weawkp2o4H7MIH4MB0GA1UdDgQWBBQUgsnTHms68E4NHSwIhSWXsdq0fjAfBgNVHSMEGDAWgBQCChYm6fNfQmIp7pySiwUzl95yFDBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMBIGA1UdEwEB/wQIMAYBAf8CAQAwCgYIKoZIzj0EAwIDSAAwRQIhAKh6omg7h6YdDH0S7Ol/Gtd19wMign9Q5H/0waa4lUkaAiBJ5MvFD/KNk3d+QAbUzx6f/8n+URIwznbWN4hin42Pfw==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-16T08:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp1-testref.atos.tsp-egk.telematik-test</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.212</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_aut_alt</ns:ExtensionValue>
+							</Extension>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -2921,30 +3053,6 @@
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
 						<StatusStartingTime>2023-01-19T16:00:00Z</StatusStartingTime>
-						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
-						</ServiceSupplyPoints>
-						<ServiceInformationExtensions>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
-							</Extension>
-						</ServiceInformationExtensions>
-					</ServiceInformation>
-				</TSPService>
-				<TSPService>
-					<ServiceInformation>
-						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
-						<ServiceName>
-							<Name xml:lang="DE">CN=ATOS.EGK-OCSP7-230119 TEST-ONLY,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
-						</ServiceName>
-						<ServiceDigitalIdentity>
-							<DigitalId>
-								<X509Certificate>MIIClDCCAjugAwIBAgIBATAKBggqhkjOPQQDAjCBqjELMAkGA1UEBhMCREUxMzAxBgNVBAoMKkF0b3MgSW5mb3JtYXRpb24gVGVjaG5vbG9neSBHbWJIIE5PVC1WQUxJRDFFMEMGA1UECww8RWxla3Ryb25pc2NoZSBHZXN1bmRoZWl0c2thcnRlLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMR8wHQYDVQQDDBZBVE9TLkVHSy1DQTcgVEVTVC1PTkxZMB4XDTIzMDExOTEyNTQwOVoXDTI1MTAxNzEyNTQwOVowbDELMAkGA1UEBhMCREUxMzAxBgNVBAoMKkF0b3MgSW5mb3JtYXRpb24gVGVjaG5vbG9neSBHbWJIIE5PVC1WQUxJRDEoMCYGA1UEAwwfQVRPUy5FR0stT0NTUDctMjMwMTE5IFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAASITf8L80Y5sIh5mAGN0ReEdjxeehfVJr3tFqeCJEsIXXXKFTAgyr+gZelk3dpekYeLs8m42yOltHii5H4vWW5to4GNMIGKMB0GA1UdDgQWBBTSEF3gMk0aVJ49V0pWdaiu+ksj4TAOBgNVHQ8BAf8EBAMCBkAwDAYDVR0TAQH/BAIwADAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMB8GA1UdIwQYMBaAFIXPvFpbgDz4QRA+EQJxv1tfiadbMBMGA1UdJQQMMAoGCCsGAQUFBwMJMAoGCCqGSM49BAMCA0cAMEQCIDbyYwBz8G517Y7vSzAAtUuIBYXU7jwJNTmsThBt2EavAiBUa0dqwIAD0CSgy7eWnwPvZbymjz0TJFxuYfSUbj9K8Q==</X509Certificate>
-							</DigitalId>
-						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2023-01-19T14:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -3764,6 +3872,30 @@
 				</TSPService>
 				<TSPService>
 					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-OCSP11 TEST-ONLY,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICiDCCAi+gAwIBAgIBATAKBggqhkjOPQQDAjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTExIFRFU1QtT05MWTAeFw0yNTEwMjAxMTM0MjNaFw0zMDEwMjAxMTM0MjNaMGsxCzAJBgNVBAYTAkRFMTMwMQYDVQQKDCpBdG9zIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kgR21iSCBOT1QtVkFMSUQxJzAlBgNVBAMMHkFUT1MuRUdLLUFMVkktT0NTUDExIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAAR0WvXQz+CtSO5yELsnWhW6i4lXaKBoe4p9H65FTjuICRJD/tixUidmIH7LCe0ME/6JSumDeYBE271zefXjQaWfo4GNMIGKMB0GA1UdDgQWBBTOvhtX1iqj3otbDMsBgNYoarM6uTAOBgNVHQ8BAf8EBAMCBkAwDAYDVR0TAQH/BAIwADAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMB8GA1UdIwQYMBaAFBSCydMeazrwTg0dLAiFJZex2rR+MBMGA1UdJQQMMAoGCCsGAQUFBwMJMAoGCCqGSM49BAMCA0cAMEQCICV/qQbVZxO43BOUAjTALIpYXRUSNxylfGsckXgmauV1AiAy/+3laXuwO7ZAB8+yy96Z3AP9wjrDYzZNowIC8ROGYw==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-20T11:35:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
 						<ServiceName>
 							<Name xml:lang="DE">CN=ATOS.EGK-CA11 TEST-ONLY,OU=Elektronische Gesundheitskarte-CA der Telematikinfrastruktur,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
@@ -3914,42 +4046,6 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
-							</Extension>
-						</ServiceInformationExtensions>
-					</ServiceInformation>
-				</TSPService>
-				<TSPService>
-					<ServiceInformation>
-						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
-						<ServiceName>
-							<Name xml:lang="DE">CN=ATOS.EGK-CA7 TEST-ONLY,OU=Elektronische Gesundheitskarte-CA der Telematikinfrastruktur,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
-						</ServiceName>
-						<ServiceDigitalIdentity>
-							<DigitalId>
-								<X509Certificate>MIIDDzCCAragAwIBAgIDD0JAMAoGCCqGSM49BAMCMIGqMQswCQYDVQQGEwJERTEzMDEGA1UECgwqQXRvcyBJbmZvcm1hdGlvbiBUZWNobm9sb2d5IEdtYkggTk9ULVZBTElEMUUwQwYDVQQLDDxFbGVrdHJvbmlzY2hlIEdlc3VuZGhlaXRza2FydGUtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxHzAdBgNVBAMMFkFUT1MuRUdLLUNBNyBURVNULU9OTFkwHhcNMTcxMDE4MTMyNDI5WhcNMjUxMDE4MTMyNDI5WjCBqjELMAkGA1UEBhMCREUxMzAxBgNVBAoMKkF0b3MgSW5mb3JtYXRpb24gVGVjaG5vbG9neSBHbWJIIE5PVC1WQUxJRDFFMEMGA1UECww8RWxla3Ryb25pc2NoZSBHZXN1bmRoZWl0c2thcnRlLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMR8wHQYDVQQDDBZBVE9TLkVHSy1DQTcgVEVTVC1PTkxZMFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABJchuqp50VGllAksu3xrFCq1MBGQG5TJFWHXYceOVuY/W0OwfsNt9DAxBIGLwlhrVUo++mpcH/gPXsBNqZ6jHDCjgccwgcQwHQYDVR0OBBYEFIXPvFpbgDz4QRA+EQJxv1tfiadbMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cDovL29jc3AuZWdrLXRlc3QtdHNwLmRlMAoGCCqGSM49BAMCA0cAMEQCIBVUVgz4toULWlD9hBtiYPHaLkrgxHe3wdZnGReIsFITAiBq8ERhmLvYwc1Q6NDpF3LWvp7FPKVc5bKdON8UuqDUgQ==</X509Certificate>
-							</DigitalId>
-						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2017-10-18T00:00:09Z</StatusStartingTime>
-						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://ocsp1-testref.atos.tsp-egk.telematik-test</ServiceSupplyPoint>
-						</ServiceSupplyPoints>
-						<ServiceInformationExtensions>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.69</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_encv</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.70</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.71</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_autn</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.68</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_enc</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -4641,6 +4737,58 @@
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
 						<StatusStartingTime>2025-08-05T08:13:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-CA12 TEST-ONLY,OU=eGK alternative Vers-Ident-CA der Telematikinfrastruktur,O=Eviden Germany GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDDjCCArWgAwIBAgIBCTAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxHDAaBgNVBAMME0dFTS5SQ0ExMSBURVNULU9OTFkwHhcNMjUxMDE2MDc1OTI1WhcNMzMxMDE0MDc1OTI0WjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTEyIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAASgBQYRNJQIbst1LXl81qmy9SEAl2LK+Rc6FaHT1bMT/pYwx47lid3tgcC9gQ6MDGAeaT0TqwmSiyXI2kh0AF5no4H7MIH4MB0GA1UdDgQWBBQjgMMX9BiJ2cz7hqRYcZ9OES5lojAfBgNVHSMEGDAWgBQCChYm6fNfQmIp7pySiwUzl95yFDBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMBIGA1UdEwEB/wQIMAYBAf8CAQAwCgYIKoZIzj0EAwIDRwAwRAIgSALIh0FXpiTedBmZunCCOSPadLhlRFo0JHeB/+fbG2YCICSvuY0qQoogERlE7qhz0VaU9RuZb9x0GgmzuT3eFDQi</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-16T08:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp1-testref.atos.tsp-egk.telematik-test</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.212</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_aut_alt</ns:ExtensionValue>
+							</Extension>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-OCSP10 TEST-ONLY,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICiTCCAi+gAwIBAgIBATAKBggqhkjOPQQDAjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTEwIFRFU1QtT05MWTAeFw0yNTEwMjAxMTMyNDVaFw0zMDEwMjAxMTMyNDVaMGsxCzAJBgNVBAYTAkRFMTMwMQYDVQQKDCpBdG9zIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kgR21iSCBOT1QtVkFMSUQxJzAlBgNVBAMMHkFUT1MuRUdLLUFMVkktT0NTUDEwIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAAR3DzRMU1lUAa1QZjAQJwz5cdj4Gik3To0dtjy4+mmxXRDWRubqVlQPWT7Gy0crrB/QTpNDGDgGKjtuatbz6LGWo4GNMIGKMB0GA1UdDgQWBBSJocsPsK7lqBPYwnvyYJ7/zBetvzAOBgNVHQ8BAf8EBAMCBkAwDAYDVR0TAQH/BAIwADAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMB8GA1UdIwQYMBaAFGufX2sVYkKN3ZdzJZbpz6E0npukMBMGA1UdJQQMMAoGCCsGAQUFBwMJMAoGCCqGSM49BAMCA0gAMEUCIQClWa60WMeQaatMuaLZwYGxOR2b68s5Rz5h6EB88A7JTwIgQtP+V/AFKIyFDp2UEw9zb3uwc86LjPkizHArTTcp+eU=</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-20T11:33:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -6313,7 +6461,7 @@
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
 						<StatusStartingTime>2025-07-23T23:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>https://tsp.gematik.solutions/login/oauth2/code/</ServiceSupplyPoint>
+							<ServiceSupplyPoint>https://tsp.gematik.solutions/login/oauth2/code</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
@@ -7443,28 +7591,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1760694946500">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1761133570051">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1760694946489" URI="">
+			<ds:Reference Id="Reference-TSL-1761133570041" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>Rytv9lXjEmE5LsJE0HzN/8cXM6CB4YwFGy8hD/GjMA4=</ds:DigestValue>
+				<ds:DigestValue>ZXEZ4tZoPOd8lKc2F5lS1Ejp3MeYhlkEBDudjxBEWV8=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1760694946500" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1760694946500">
+			<ds:Reference Id="Reference-SignedProperties-1761133570051" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1761133570051">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>ZE9IXMUAfK/9JR82utYiXSkGjQK6mcgmuqHQGpP0RSs=</ds:DigestValue>
+				<ds:DigestValue>xMjT5aid6d8w+3JNUUaNUuSGaHcEEtokdWk/PtYSJGY=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>YboKs2Tl21ZOpFZylj/neLw2N9wn5mXXWGhj+RUqoDkylbbNHuIAspFQyqB6TTFipMWOpwRw1uof
-v0fnMk69vA==</ds:SignatureValue>
+		<ds:SignatureValue>d16VCxB06FAO58rODYfzWjxttOHzKowO3Cf0kcZVKw+kd/lYPrSaO0xcVT2iSG96yJBwylZdR0Ad
+iELaw1K4Dw==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -7482,10 +7630,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1760694946500">
-				<xades:SignedProperties Id="SignedProperties-1760694946500">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1761133570051">
+				<xades:SignedProperties Id="SignedProperties-1761133570051">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2025-10-17T09:55:46Z</xades:SigningTime>
+						<xades:SigningTime>2025-10-22T11:46:10Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -7500,7 +7648,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1760694946489">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1761133570041">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
