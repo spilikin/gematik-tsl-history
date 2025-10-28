@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31063220251024083423Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31063420251028000014Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10632</TSLSequenceNumber>
+		<TSLSequenceNumber>10634</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2025-10-24T08:34:23Z</ListIssueDateTime>
+		<ListIssueDateTime>2025-10-28T00:00:14Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2025-11-23T08:34:23Z</dateTime>
+			<dateTime>2025-11-27T00:00:14Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -6359,6 +6359,30 @@
 				</TSPService>
 				<TSPService>
 					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=hsmb.ehealth-ru.d-trust.net,O=D-Trust GmbH TEST-ONLY - NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDRjCCAuygAwIBAgICUsEwCgYIKoZIzj0EAwIwgYQxCzAJBgNVBAYTAkRFMR8wHQYDVQQKDBZnZW1hdGlrIEdtYkggTk9ULVZBTElEMTIwMAYDVQQLDClLb21wb25lbnRlbi1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEgMB4GA1UEAwwXR0VNLktPTVAtQ0E1NSBURVNULU9OTFkwHhcNMjUxMDE3MTE0NzUwWhcNMzAxMDE2MTE0NzQ5WjBgMQswCQYDVQQGEwJERTErMCkGA1UECgwiRC1UcnVzdCBHbWJIIFRFU1QtT05MWSAtIE5PVC1WQUxJRDEkMCIGA1UEAwwbaHNtYi5laGVhbHRoLXJ1LmQtdHJ1c3QubmV0MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENMVRW2ksouoHo5O/cZO1dbFwffdKC9HoO5weBtKRGaxH6xLmSwgC8idT6auPnj459y7FeL+xz4Fd7xMYYla6kqOCAW8wggFrMB0GA1UdDgQWBBSFqhh0X68hzJ1rWyItlaC0USuswTAfBgNVHSMEGDAWgBQeZZX8AGMes/RNWokS+hzQvz5+MDBNBggrBgEFBQcBAQRBMD8wPQYIKwYBBQUHMAGGMWh0dHA6Ly9kb3dubG9hZC10ZXN0cmVmLmNybC50aS1kaWVuc3RlLmRlL29jc3AvZWMwDgYDVR0PAQH/BAQDAgeAMCEGA1UdIAQaMBgwCgYIKoIUAEwEgSMwCgYIKoIUAEwEgSgwJgYDVR0RBB8wHYIbaHNtYi5laGVhbHRoLXJ1LmQtdHJ1c3QubmV0MAwGA1UdEwEB/wQCMAAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwXAYFKyQIAwMEUzBRME8wTTBLMEkwOww5VGVjaG5pc2NoZSBaZXJ0aWZpa2F0c2F1c2dhYmVzdGVsbGUgZWluZXMgQW5iaWV0ZXJzIFNNQy1CMAoGCCqCFABMBII2MAoGCCqGSM49BAMCA0gAMEUCIHhjJyNxSfw5S9k5bRSBX5ywi6i+Lvl81gIsEoELjMdZAiEAos/8r9dzDeesf8cVbNWXSYd2jYqVGSv/OIbDeHJxHm0=</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-10-17T11:48:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://hsmb.ehealth-ru.d-trust.net/redirect</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.310</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zert_smb</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
 						<ServiceName>
 							<Name xml:lang="DE">CN=D-Trust.SMCB-CA1 TEST-ONLY,OU=Institution des Gesundheitswesens-CA der Telematikinfrastruktur,O=gematik GmbH NOT-VALID,C=DE</Name>
@@ -8287,28 +8311,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1761294864059">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1761609614428">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1761294864052" URI="">
+			<ds:Reference Id="Reference-TSL-1761609614424" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>8GkLnY23cR9yKTzN6YCuFBE4CxUjdXkV82sPm/Bfuj4=</ds:DigestValue>
+				<ds:DigestValue>gyz+KWf4V63Dd0FbldDacIR+rCtolTnFxqbBb6QlpBs=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1761294864060" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1761294864059">
+			<ds:Reference Id="Reference-SignedProperties-1761609614428" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1761609614428">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>aomfOScFry7jxviIubwFNeWzh2Y6cjXL6yv9p1oWGRc=</ds:DigestValue>
+				<ds:DigestValue>dk1wDxxACalTJMU6DIptpi6/3PEZ5RLCNYjovV3oN3o=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>Fi1Hs5zW8TGtG1iHF5HYU8WiCrceiCuOhG0fptl+aGJ0UMOWq14TcyRrfX/kjd0NFQp2OzN3rozl
-XgNz7ioiEQ==</ds:SignatureValue>
+		<ds:SignatureValue>UbI7pdjTBHP1qc74HioVAPqHDwTIG51mS/v6uqzyqFp0HwIAoOl+ZS1cUpH0RXmLr3WZsQCy5wAO
+8IKR/JtGDw==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -8326,10 +8350,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1761294864059">
-				<xades:SignedProperties Id="SignedProperties-1761294864059">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1761609614428">
+				<xades:SignedProperties Id="SignedProperties-1761609614428">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2025-10-24T08:34:24Z</xades:SigningTime>
+						<xades:SigningTime>2025-10-28T00:00:14Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -8344,7 +8368,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1761294864052">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1761609614424">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
