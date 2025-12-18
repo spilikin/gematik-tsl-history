@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31064020251204101618Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31064420251218134209Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10640</TSLSequenceNumber>
+		<TSLSequenceNumber>10644</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2025-12-04T10:16:18Z</ListIssueDateTime>
+		<ListIssueDateTime>2025-12-18T13:42:09Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-01-03T10:16:18Z</dateTime>
+			<dateTime>2026-01-17T13:42:09Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -3059,6 +3059,32 @@
 				</TSPService>
 				<TSPService>
 					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.telematik/TrstSvc/Svctype/CA/CVC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CHR=DEGXX890225, CAR=DEGXX890225</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<Other>
+									<ns:CVCertificate xmlns:ns="http://uri.etsi.org/02231/v2#">fyGB2H9OgZFfKQFwQghERUdYWIkCJX9JTQYIKoZIzj0EAwKGQQQSTXdG8797c5l20ox6200S0xvWZfHAC05I3jreDn6zHjJfKqLVkAdiecQwDojcD5+tGXLqv0qbMn7tP3ZyO91cXyAIREVHWFiJAiV/TBMGCCqCFABMBIEYUwf/////////XyUGAgUBAgEAXyQGAwUBAgAJXzdAdteDP/ChNmWDmSxpPYABjcJoXxcJWLIgZ2syybCbUlFEBrCmhkvoEOG1cR0TyCqqXXwhKQpaixrDifkH2Z94TA==</ns:CVCertificate>
+								</Other>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-12-10T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.185</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cv_rootcert</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
 						<ServiceName>
 							<Name xml:lang="DE">CN=ATOS.EGK-OCSP33 TEST-ONLY,O=Eviden Germany GmbH NOT-VALID,C=DE</Name>
@@ -3257,6 +3283,58 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.telematik/TrstSvc/Svctype/CA/CVC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CHR=DEGXX890225, CAR=DEGXX880224</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<Other>
+									<ns:CVCertificate xmlns:ns="http://uri.etsi.org/02231/v2#">fyGB2H9OgZFfKQFwQghERUdYWIgCJH9JTQYIKoZIzj0EAwKGQQQSTXdG8797c5l20ox6200S0xvWZfHAC05I3jreDn6zHjJfKqLVkAdiecQwDojcD5+tGXLqv0qbMn7tP3ZyO91cXyAIREVHWFiJAiV/TBMGCCqCFABMBIEYUwf/////////XyUGAgUBAgEAXyQGAwUBAgAJXzdAUDf2SQuilcBdL3ej5Q2gkNHiKrRS2py5qRl7BsunZcilIsqwiz8/GzwBOuKkuZkmslVH271fvI0aw894AUS7Lw==</ns:CVCertificate>
+								</Other>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-12-10T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.186</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cv_cert</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.telematik/TrstSvc/Svctype/CA/CVC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CHR=DEGXX880224, CAR=DEGXX890225</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<Other>
+									<ns:CVCertificate xmlns:ns="http://uri.etsi.org/02231/v2#">fyGB2H9OgZFfKQFwQghERUdYWIkCJX9JTQYIKoZIzj0EAwKGQQQogfxgPypPn/pH1JUNM9hZVaOhLempGMYgH6gAQzp28Z+2AHpY4GA3bc3uchCBzBOlRqxrTQL9AOwW9sm++S3hXyAIREVHWFiIAiR/TBMGCCqCFABMBIEYUwf/////////XyUGAgUBAgEAXyQGAwQAAQEAXzdAeJzjQ+9WUDNPhaYK8oxc4j38GOaGNyAOggxAy08JNhJ2xRjHNytJGZ2pAZU62zr2tuWo9CD8zgS4xLvAwia/Cg==</ns:CVCertificate>
+								</Other>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-12-10T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.186</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cv_cert</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -9930,28 +10008,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1764843378967">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1766065330165">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1764843378955" URI="">
+			<ds:Reference Id="Reference-TSL-1766065330161" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>4PsizQ3zYQ7S4/803hUYJHT6LmBndT0HIyQ2JVaPp6c=</ds:DigestValue>
+				<ds:DigestValue>BXe2XDbCgeuqg8GpEraHVNcTxrSNwxVcT4pSGw5jOmg=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1764843378967" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1764843378967">
+			<ds:Reference Id="Reference-SignedProperties-1766065330165" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1766065330165">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>y8NAsB8b6kC1T4inSW8RSRD6SjZb1YtMhiAn7N6A63Q=</ds:DigestValue>
+				<ds:DigestValue>87F0bcAo1Ja9WJxBuZvNPIoMGqll3e7s/GE+P/No8p4=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>jbBEeTTnXT3i38GLqdql36gARjYxA96bdpCANe0KmoieCz7Jc99ZxjxDaXu2YaQ5v6QZfKrl4evW
-flsSYNlpSA==</ds:SignatureValue>
+		<ds:SignatureValue>RzF1LHg0nt5AX2XS0kMqisiIE2oKZsXGLSObYmQQM5BpcF5VPR7I3wlNG6ahoqWae18+De3JffSH
+GWnSPttgiA==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -9969,10 +10047,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1764843378967">
-				<xades:SignedProperties Id="SignedProperties-1764843378967">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1766065330165">
+				<xades:SignedProperties Id="SignedProperties-1766065330165">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2025-12-04T10:16:18Z</xades:SigningTime>
+						<xades:SigningTime>2025-12-18T13:42:10Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -9987,7 +10065,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1764843378955">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1766065330161">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
