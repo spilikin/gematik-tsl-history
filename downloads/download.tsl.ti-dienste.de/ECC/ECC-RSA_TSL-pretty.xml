@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31030820251214000006Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31030920251228000005Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10308</TSLSequenceNumber>
+		<TSLSequenceNumber>10309</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2025-12-14T00:00:06Z</ListIssueDateTime>
+		<ListIssueDateTime>2025-12-28T00:00:05Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-01-13T00:00:06Z</dateTime>
+			<dateTime>2026-01-27T00:00:05Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -8631,28 +8631,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1765670406639">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1766880006301">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1765670406635" URI="">
+			<ds:Reference Id="Reference-TSL-1766880006285" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>mdHLVL0GME5CcQucJ6hqLPl9KW1Xy+3vbNJQj9sLumY=</ds:DigestValue>
+				<ds:DigestValue>qaeHRjpU2aoP09ZKh6zRGFe986vePnqmBfPSqk/k8b4=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1765670406639" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1765670406639">
+			<ds:Reference Id="Reference-SignedProperties-1766880006301" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1766880006301">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>SY/Elj5ilJLf7a4lFb5BXUVOySHfdBTMn7wSjlt+kU4=</ds:DigestValue>
+				<ds:DigestValue>qjrT10ZcYPlMp0Mapmaf5h6R5BlNR5GhWAySPxRsgg0=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>UaM59ZX9KwFChCBmfm25ftsdOTqnoFOBU0v2plGBIiNWi+DjH593aR1yhAyuu6PxYO2E5WwUS+/b
-Kh8rkbdIcA==</ds:SignatureValue>
+		<ds:SignatureValue>GX5NnwAfCKF+uA7XgyWTgGTDa+Esl0NmbJV7eIbQeYE1XLuci63VYYGlvuF4FSVBfeaSlg1z2FQe
+CnZ7WteULw==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICajCCAhCgAwIBAgIBBjAKBggqhkjOPQQDAjBtMQswCQYDVQQGEwJERTEVMBMGA1UECgwMZ2Vt
@@ -8669,10 +8669,10 @@ qaLK4zFc8FTsYzYmfbnPpATXAiA0EMb+jIf5YvHh58Y05RrlfqsOr6MNQfIxXRzrzFy2eA==</ds:X50
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1765670406639">
-				<xades:SignedProperties Id="SignedProperties-1765670406639">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1766880006301">
+				<xades:SignedProperties Id="SignedProperties-1766880006301">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2025-12-14T00:00:06Z</xades:SigningTime>
+						<xades:SigningTime>2025-12-28T00:00:06Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -8687,7 +8687,7 @@ qaLK4zFc8FTsYzYmfbnPpATXAiA0EMb+jIf5YvHh58Y05RrlfqsOr6MNQfIxXRzrzFy2eA==</ds:X50
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1765670406635">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1766880006285">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
