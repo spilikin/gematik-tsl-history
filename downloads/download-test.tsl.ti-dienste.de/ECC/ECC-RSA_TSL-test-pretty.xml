@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31064920260128000011Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31065220260214000011Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10649</TSLSequenceNumber>
+		<TSLSequenceNumber>10652</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2026-01-28T00:00:11Z</ListIssueDateTime>
+		<ListIssueDateTime>2026-02-14T00:00:11Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-02-27T00:00:11Z</dateTime>
+			<dateTime>2026-03-16T00:00:11Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -90,7 +90,7 @@
 								<X509Certificate>MIIEZzCCA0+gAwIBAgIBPTANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0EyIFRFU1QtT05MWTAeFw0yMDA4MDUxMjU2MjNaFw0yNjExMTQxMjU2MjJaMIGeMQswCQYDVQQGEwJERTEfMB0GA1UECgwWYWNoZWxvcyBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSQwIgYDVQQDDBtBQ0hFTE9TLlNNQ0ItQ0EyMCBURVNULU9OTFkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDG6rHthGbDgJJXaLmhGzys2ZNrSNVcfGE/d7t7dzOIQKI3s6Wt+lQeg6H+Qwyz4XdxCip0pwtCWXVnLsbaUBvydz4bYkvYTh1ot4XAybR2x+G/Xu8SyzeI9XbXfW0SZK+dCo7d7HYS0YluUw2S8XCj1iDOJI/EyugdgWEeFoU+kO7QURm0ESJygkh5BXk6iwbO9IEqf73CXN9vfQgybF9r1znD1FGR0/FOulH5qb6L6JE9WtEzJ6/SEhxOfPD43BeraQHQS/SBebaMlXSB+pHsdltFmDYmCUgA5ywmpWnKMrFF/poTyxR/Tzmed8IwYR64VlC8LL22OdIsO6c/WI4lAgMBAAGjgcowgccwHQYDVR0OBBYEFAnOv0ialhio9YmBuNLGQf8jsxFLMB8GA1UdIwQYMBaAFC1pALuh9MyOA6Ilg5LJ0mPh2US4MEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMA0GCSqGSIb3DQEBCwUAA4IBAQBo9M06OKyUvjjjoyFvYpIDro8gcI0CTp73lCS4PKobjD3ehdA05b7w3q3llMJPW9/RZYRRJ1iMbQ3TDiZ0lM/fTDLteE6iZwUJNxxGY32uM5sD5A3lZ442GBjVEFk6kId+regnEDWoIuRU9fZQWqQSk+yOWoYGwYJieAc2YT5JLs12OxVqqywdCrJ+RtEgRbZS5sceAaXdBnFgNtxPgqaNqdnlS76fwj/RSXCN3DaiVCBVi6AMifTcKDzOvbGBKb51aG62so9S0o10P9fADiD9ftSzr3RpdhXdcwal+s19l0NkEz9uScEhOp14L7SLkF/jUgNb+iud2+xeC02YGBtm</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2020-08-05T14:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.achelos.de:8080/ocsp/smcb</ServiceSupplyPoint>
@@ -924,60 +924,12 @@
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.283</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_osig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.175</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cm_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.80</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_nk_vpn</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.155</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.287</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zd_sig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.169</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_s</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.202</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.301</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.157</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zd_tls_s</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.113</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_sak_aut</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.82</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_smkt_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.168</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.300</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_sig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.203</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_sig</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.79</ns:ExtensionOID>
@@ -1257,17 +1209,17 @@
 					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
 						<ServiceName>
-							<Name xml:lang="DE">CN=hsmb.ru.infinity-gate.de,O=eHEX TEST-ONLY - NOT-VALID,C=DE</Name>
+							<Name xml:lang="DE">CN=hsmb.tu.infinity-gate.de,O=eHEX TEST-ONLY - NOT-VALID,C=DE</Name>
 						</ServiceName>
 						<ServiceDigitalIdentity>
 							<DigitalId>
-								<X509Certificate>MIIDFjCCArygAwIBAgICUIkwCgYIKoZIzj0EAwIwgYQxCzAJBgNVBAYTAkRFMR8wHQYDVQQKDBZnZW1hdGlrIEdtYkggTk9ULVZBTElEMTIwMAYDVQQLDClLb21wb25lbnRlbi1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEgMB4GA1UEAwwXR0VNLktPTVAtQ0E1NSBURVNULU9OTFkwHhcNMjUwOTAxMTQ1MzExWhcNMzAwODMxMTQ1MzEwWjBVMQswCQYDVQQGEwJERTEjMCEGA1UECgwaZUhFWCBURVNULU9OTFkgLSBOT1QtVkFMSUQxITAfBgNVBAMMGGhzbWIucnUuaW5maW5pdHktZ2F0ZS5kZTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKVR40j0XHfmE+JjyoJ3274Zn2UraiCzgwd4CcPUMyVsY9rsNn24KeQdG2H93349mgOdNsuqWlHyXNwrf5FRNomjggFKMIIBRjAdBgNVHQ4EFgQUGdndN9UOt8jz3Hf+Hf/tqA/rky8wHwYDVR0jBBgwFoAUHmWV/ABjHrP0TVqJEvoc0L8+fjAwTQYIKwYBBQUHAQEEQTA/MD0GCCsGAQUFBzABhjFodHRwOi8vZG93bmxvYWQtdGVzdHJlZi5jcmwudGktZGllbnN0ZS5kZS9vY3NwL2VjMA4GA1UdDwEB/wQEAwIHgDAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIEpMCMGA1UdEQQcMBqCGGhzbWIucnUuaW5maW5pdHktZ2F0ZS5kZTAMBgNVHRMBAf8EAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMDoGBSskCAMDBDEwLzAtMCswKTAnMBkMF1RJLUdhdGV3YXkgWnVnYW5nc21vZHVsMAoGCCqCFABMBII1MAoGCCqGSM49BAMCA0gAMEUCIQDXAXeNEm8qswH/tqxjkjMRll7D7M8ktPUjQrbHKN86xgIgZQdfIUAvy1Nf+Hf9xJiuIkiL9FqnFfIYg5BZGPluITw=</X509Certificate>
+								<X509Certificate>MIIDFzCCArygAwIBAgICWqIwCgYIKoZIzj0EAwIwgYQxCzAJBgNVBAYTAkRFMR8wHQYDVQQKDBZnZW1hdGlrIEdtYkggTk9ULVZBTElEMTIwMAYDVQQLDClLb21wb25lbnRlbi1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEgMB4GA1UEAwwXR0VNLktPTVAtQ0E1NSBURVNULU9OTFkwHhcNMjYwMjA1MDY1NjA2WhcNMzEwMjA0MDY1NjA1WjBVMQswCQYDVQQGEwJERTEjMCEGA1UECgwaZUhFWCBURVNULU9OTFkgLSBOT1QtVkFMSUQxITAfBgNVBAMMGGhzbWIudHUuaW5maW5pdHktZ2F0ZS5kZTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHeliiCZPP+dUB4mBFNeNSp3CB9VGXw2hNPutG5aCbVrRTAN1kOE6+UWE9YDcC9P10r96l0tXcMG0OgLhvYFleOjggFKMIIBRjAdBgNVHQ4EFgQUB7o6qeKl3L9OOnxE6IFb0Ay+0yEwHwYDVR0jBBgwFoAUHmWV/ABjHrP0TVqJEvoc0L8+fjAwTQYIKwYBBQUHAQEEQTA/MD0GCCsGAQUFBzABhjFodHRwOi8vZG93bmxvYWQtdGVzdHJlZi5jcmwudGktZGllbnN0ZS5kZS9vY3NwL2VjMA4GA1UdDwEB/wQEAwIHgDAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIEpMCMGA1UdEQQcMBqCGGhzbWIudHUuaW5maW5pdHktZ2F0ZS5kZTAMBgNVHRMBAf8EAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMDoGBSskCAMDBDEwLzAtMCswKTAnMBkMF1RJLUdhdGV3YXkgWnVnYW5nc21vZHVsMAoGCCqCFABMBII1MAoGCCqGSM49BAMCA0kAMEYCIQCIXew5zZW/Cz56YZDNxY3MC7pBNOQKTeYDnlWMDmpOWgIhAKclgFikacDcx97aP48VR+GfnCYAbjV9S2Ch5oRP/gJ1</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2025-09-01T14:54:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-05T06:57:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>https://hsmb.ru.infinity-gate.de/</ServiceSupplyPoint>
+							<ServiceSupplyPoint>https://hsmb.tu.infinity-gate.de</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
@@ -1466,7 +1418,7 @@
 								<X509Certificate>MIIEZTCCA02gAwIBAgIBHDANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0EyIFRFU1QtT05MWTAeFw0xNzExMjcxNDMyMzlaFw0yNTExMjUxNDMyMzhaMIGcMQswCQYDVQQGEwJERTEgMB4GA1UECgwXbWVkaXNpZ24gR21iSCBOT1QtVkFMSUQxSDBGBgNVBAsMP0luc3RpdHV0aW9uIGRlcyBHZXN1bmRoZWl0c3dlc2Vucy1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEhMB8GA1UEAwwYTUVTSUcuU01DQi1DQTEgVEVTVC1PTkxZMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5wvdrzqTeiOzqi8k3EEKVOWs9QFBCeqTAsr6QStNEK0i6Z2c9MJ71jFV/J5+aEKWjuj0BO3Pn3SosHeFSAmIpXlXqRi18DpGXSjSE44EY+F9PauvagEWpi+/QPQ9rmfdBImQlBhgJpuUtNQyP/oNriVt93i/k+ITPbCRhp0ksg5kOIqcR2Zs4pcwlX/LE3BdmjtsrzZlDBqKDqql3dEM8/5AayeVe7FqH/5nUhg+y9cdtvpUj/snRjeZ+mQu5yPDUU+ULyt3wvUItYekAB/nVCblvyBN+JfAj6tfLcjfIheK6NM1YLsqfXBgx9Eo2DuDVHTT3NHDn1ihJ0MSK7swSwIDAQABo4HKMIHHMB0GA1UdDgQWBBTP+y9bEb/rQHH9fHpecyrUxCrhAzAfBgNVHSMEGDAWgBQtaQC7ofTMjgOiJYOSydJj4dlEuDBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAQYwFQYDVR0gBA4wDDAKBggqghQATASBIzANBgkqhkiG9w0BAQsFAAOCAQEAaoG3Qkmq998wNAp3PtRgmrGb7RWRmXNM4HsYdVnt4E84IRNTMj+EZEkpodVigibneahaVgSkSBFUvgPQnQn2cFwZasF3HfAlabH9mW+2tVK5Q8fNobFBuMbTtEOUSTQEzgE6qwrZkNiv7inj6D2SPuqZzriR0hRmuo8caJMxK/b4mRCcbBzNv/tbYBZmJZh9BSyXDhO4cshPW17Q/UY4zzbn87KwO+yiKJ4P5xehVWA/R3SXrH7kWT+84ZwnJrqNOm1LPChv7me/SsCFZ/zBL8IitSLqJZFW6QXGVLAP9mYlrG4bZtKMydorgzuGN3ewz3cIPdIYS7Wba8/J1eeLbg==</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2017-11-27T15:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://tirutu-ocsp-smcb.medisign.tsp-smc-b.telematik-test:8080/ocsp</ServiceSupplyPoint>
@@ -1586,7 +1538,7 @@
 								<X509Certificate>MIIElzCCA3+gAwIBAgIBQDANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yNTA0MDcxNDAwNDBaFw0zMTEwMjYwNzI0MTRaMIGdMQswCQYDVQQGEwJERTEgMB4GA1UECgwXbWVkaXNpZ24gR21iSCBOT1QtVkFMSUQxSDBGBgNVBAsMP0luc3RpdHV0aW9uIGRlcyBHZXN1bmRoZWl0c3dlc2Vucy1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEiMCAGA1UEAwwZTUVTSUcuU01DQi1DQTI1IFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJlvDtS7HHIbTQ6LnpdPVlUvz5raxiELhIYM93BuT3E2mkEfbvGZXMmWg43bhDAce8+EtcDK07wO8VEbl218ObUJEmO2UFzruv4t92R10JwSEYy5o+U67dgwmEC3EoNvfY4fMyZaoD6wnjdbVIM072ovTbSZzKkjF02maKcsawn1+h1wADyePGsuR18qqbym6JD3qLu1lTsuSEssL62NuZoM3rxM+ONlwJWis+1iMh1U9H129nUy5ppPQejnAjuTX0IpD9NqaPGnFO1LV/cIhkq8OwGGXyRynWQI4jjlRpzgeAseglxt3RJbTTH5W8mGaM8BftEqcpvoEVHgMjjZGH0CAwEAAaOB+zCB+DAdBgNVHQ4EFgQUe/A1zoWTrm1WPE7XX+BbfKmqPVkwHwYDVR0jBBgwFoAUTPfgZVhVmOY5i8gHdT1MpnAszykwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMA4GA1UdDwEB/wQEAwIBBjBGBgNVHSAEPzA9MDsGCCqCFABMBIEjMC8wLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cuZ2VtYXRpay5kZS9nby9wb2xpY2llczASBgNVHRMBAf8ECDAGAQH/AgEAMA0GCSqGSIb3DQEBCwUAA4IBAQC2fbuLAomTxTyswMYFMLYaKKBOrseowA8UzRBscJZHQSqdeh7cWYi7QSWHGzNLU+/PrSVqlcb/1DCFbTC04No2QYeMPXqxDWJL6fJULFiSwTlBdH0L8O8t0bbn5fKMUGf1oIyAajEUKhxogFI4RTdVI+U7vntN+fLCrFXCTnZqMazCt9jW73Ahcs8ApWSbABr0A5TCIZB9lTNRQ39bR7uwXgsGvFfNM2hdFvhW84vwx3o5ki246YLT0NHTwYNGYnNWfNnm6ngyX0ZCKrj1iNUDaqZIlWnVciiKkTpHbnmTchZsPkLOe4b8C9KquGM4Ir0NaLyuuZ03TiaAPP8CYo5d</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2025-04-07T14:01:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://tirutu-ocsp-smcb.medisign.tsp-smc-b.telematik-test:8080/ocsp</ServiceSupplyPoint>
@@ -3088,7 +3040,7 @@
 								<X509Certificate>MIIEdzCCA1+gAwIBAgIBKzANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0EyIFRFU1QtT05MWTAeFw0xOTA1MTYxMjA0NDRaFw0yNjExMTQxMjA0NDNaMIGuMQswCQYDVQQGEwJERTEzMDEGA1UECgwqQXRvcyBJbmZvcm1hdGlvbiBUZWNobm9sb2d5IEdtYkggTk9ULVZBTElEMUgwRgYDVQQLDD9JbnN0aXR1dGlvbiBkZXMgR2VzdW5kaGVpdHN3ZXNlbnMtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxIDAeBgNVBAMMF0FUT1MuU01DQi1DQTMgVEVTVC1PTkxZMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2djTB0wy4fxIQPbFP4zrXU8j4Jg9hhFdzM7lJTwtZYJQtUiRU8ur5tCXxtAwQuF/AvZZPx62bp/QSSn9uWMU78PEYGS+bVkgqAOJf+n5+Z6psaHXuao8joX0+LhoYzJsp5CrQJFDeqQxEN6SXSsiog8L1IfgHEuKYBGRz6NsBYx9eiQE67RnAmp6tacJTChr1E+sxxmsyq9QLFQYiVCgn3LYYGrjhyTPhBwWqDmF79AyYDLQvZggt0ohPbabCbbfCO83FJLvq/Av5DSyC4EQZOYpbksOg4IPVZbcqu9lOq0NcAJoiLdvQOSDPwbFRtZ6sSCznj03/mykITxxZ5bctwIDAQABo4HKMIHHMB0GA1UdDgQWBBQ/nh5eJirWDJWheJ6q89Xa80Gn/DAfBgNVHSMEGDAWgBQtaQC7ofTMjgOiJYOSydJj4dlEuDBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAQYwFQYDVR0gBA4wDDAKBggqghQATASBIzANBgkqhkiG9w0BAQsFAAOCAQEAFnTRDmp4Mb3q0nfU3/iCCmg9paUt45JUDQPc6aCRiyuc5YGfn1v+mNnoMIrR1XpTMHGwF9x4epDoPLpLdonkH8L8KWYCSBB10LXF1+OC8QrhSjLM9aFr4jvHmYfBATDnqkyYDCN8KMCZ6pvUGpxi09LTuXOdT7RCVnypuFDWxAXOP/jd/rpqQV19V5G5j9pb/lLA34UiTgpEf4cOGdhp20zPo7JEsOH9X7d3fc1B3LDiCyxv2tVzqW+MjPnSDeabT+l57utUgpQf+IZjLlv9jiJGSJ9isCjGJpazswopeG83hWLnjSePPdq3ertjzY9gjV65PgRlQ71D0uNJ3oFEFQ==</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2019-05-16T13:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -4482,7 +4434,7 @@
 								<X509Certificate>MIIEqDCCA5CgAwIBAgIBHDANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yMTExMTUxNDA5MjVaFw0yOTExMTMxNDA5MjRaMIGuMQswCQYDVQQGEwJERTEzMDEGA1UECgwqQXRvcyBJbmZvcm1hdGlvbiBUZWNobm9sb2d5IEdtYkggTk9ULVZBTElEMUgwRgYDVQQLDD9JbnN0aXR1dGlvbiBkZXMgR2VzdW5kaGVpdHN3ZXNlbnMtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxIDAeBgNVBAMMF0FUT1MuU01DQi1DQTUgVEVTVC1PTkxZMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhGN3aXPszU3BjwNMjlISExtC7NWLVgtusDKCzqaLqtJ080DPFp/Zce7dNxLnMtF3QxpuDxtDTpmRZMkih9tLyYoghLaIyHNRkB1tR2b1UeD2mk79YWENkBVJCWacXh5l6tdyKwToL0dzc+epjLGl9K4AR9W/2vSpYlnFTuCHMQKulVh8IbtaEY+sMmogBIdm7zzOfdvACPSTXzwUTLMGSQR4UUDPVdFLxvEndaPJuHMDqMo9X+uAIuxywvp2H9T5w2nWk79YziLa3Ast+CGLwbhPNLEOZWPySoXQWajymxTJsObfvNfCQhxSkDtIvvhY54Z2WpNwhD+N+I/XgBdGqwIDAQABo4H7MIH4MB0GA1UdDgQWBBTIj8luNF8bQwArr8Sp3DkiKQ7wIzAfBgNVHSMEGDAWgBRM9+BlWFWY5jmLyAd1PUymcCzPKTBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMBIGA1UdEwEB/wQIMAYBAf8CAQAwDQYJKoZIhvcNAQELBQADggEBAHIlkrgXvH7uBuFkIq3EKuVbxOtloWQf6fTdcVyfq23OawCIIc40vMlxR0qZNvbp0kimh0NZtVb3FSOk22vDWGzrnkOdp/gr6ipKAzXVIp2RFWLY3+8TfZQQCvxRvbNKOHT/5L9mnY/SQloMufr5i4y6m+vKNio6SCO2yCjiaQDh2T03RuPgmBcQb8BYkr1QWqKhQ7/09UbCa6/6ZrMBgEN5zhkVOViHhpqVmpFCj2XJkjl4vxifwTd3V/6KgOPepTKAaJkqfvtpZqYsVPEwyK2ml78FfP91Equ2KMUu1qRlcHlfo1WJ5IoHDuEZOpErRlgY2on5GC9XIosmt5qjqhk=</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2021-11-15T15:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -4824,7 +4776,7 @@
 								<X509Certificate>MIIEmzCCA4OgAwIBAgIBNDANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yNDA5MjUxMzEwNDRaFw0zMTEwMjYwNzI0MTRaMIGhMQswCQYDVQQGEwJERTEmMCQGA1UECgwdRXZpZGVuIEdlcm1hbnkgR21iSCBOT1QtVkFMSUQxSDBGBgNVBAsMP0luc3RpdHV0aW9uIGRlcyBHZXN1bmRoZWl0c3dlc2Vucy1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEgMB4GA1UEAwwXQVRPUy5TTUNCLUNBNyBURVNULU9OTFkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC31qmXYZka9C3c+tJvVMprY/BYFDOsPhtRvwZe48kRB50cUvIeysyZ3IOEgzV5xyeDVDbIWtXIIO8WEMhYjeDVx0VqX6aQmhlzrJnFACZF06dKCPALhM948JNsYpLaZ2q5DgZVnKUuzmA5zQ4GqqBuJpHj85lvhZ8rt1OWo3x7dGy4KsR7gxhWbyVGncSjye9O82TLsY8TOm/tBW8YBDcghQi1FOjqzvYka4OePUUOxfBcQzjRfqB1s49T2dvYsBm52PzUGFvF7DnrkpUd9g5rZO3ih1FinAo9mwtGkDut0iunQVJQh2NbinBi6QbulLTWSnNMARTOlQsz9AjiQLbxAgMBAAGjgfswgfgwHQYDVR0OBBYEFDoSMTm6eDtIgX3vRPH0NnQVluMTMB8GA1UdIwQYMBaAFEz34GVYVZjmOYvIB3U9TKZwLM8pMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDAOBgNVHQ8BAf8EBAMCAQYwRgYDVR0gBD8wPTA7BggqghQATASBIzAvMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmdlbWF0aWsuZGUvZ28vcG9saWNpZXMwEgYDVR0TAQH/BAgwBgEB/wIBADANBgkqhkiG9w0BAQsFAAOCAQEAbwJORTy55my9azwGncdkwaoDjhNxg3uXi1yFeMMDPXB8neoKccjVmjvZwI0gcphma9ykxaf6n3L5FrRSoB3Jh+UsSMKijWIc2O8YtEtcZVfWmao76zyGKeFja6vTkZ4j9Om99azi3ZWj3mzSqaPHZhgEHk2URodZpnezpXdOwknefwSfkt02bAB2j3Z9yqoXNSS3Rib73rWyn04Y2nHOq1Gk/T0N/aaps0cQpX2RAK8IfaXNXJ3pVDy7cK6FknIxdqcjlpH5k27E0QPqkAllXKtcJ9m1rnNZZZYm1xHGduiB2Bh/WKYu2NfKQAOjJYbswey5rldJclvMhNTqEJM9cQ==</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2024-09-25T13:11:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -4888,7 +4840,7 @@
 								<X509Certificate>MIIEnTCCA4WgAwIBAgIBOjANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yNDEyMTgxMDE5MTlaFw0zMTEwMjYwNzI0MTRaMIGjMQswCQYDVQQGEwJERTEmMCQGA1UECgwdRXZpZGVuIEdlcm1hbnkgR21iSCBOT1QtVkFMSUQxSDBGBgNVBAsMP0luc3RpdHV0aW9uIGRlcyBHZXN1bmRoZWl0c3dlc2Vucy1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEiMCAGA1UEAwwZRVZJREVOLlNNQ0ItQ0ExIFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ01642Xw/eDhI9LRPZr+dpJQhOVUF6f8/5SqAc2dZLrova3f5qKEpl7tBvjpr7RkKPBL5S+xwagocFp7b+E6OV2+VsJDGSguwG162TIlGFBq1P1hV1iSjRl4nwBjbymfiRNZ4b5svDNOAkRfsXVn8hQq9FXfMy4yoiG92vitSslSR5UYpoZGzkIww7v5EUqsnEXiooY5OnDf9cB/8T0jnja8YFoLQIF6t9RWR40zLsvYTDrHFGC3YJsVIOuYzgenlSdASRGFUOWCpwmMCGujoCkYfhXg51wdfy8LbrJrLjdSWFVGA5NMzAvcYMw8D/lYUkB+m8MkdC/A8LzTz86o/MCAwEAAaOB+zCB+DAdBgNVHQ4EFgQUskIyQv4NlXkxYIiDiVj0CelR+F8wHwYDVR0jBBgwFoAUTPfgZVhVmOY5i8gHdT1MpnAszykwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMA4GA1UdDwEB/wQEAwIBBjBGBgNVHSAEPzA9MDsGCCqCFABMBIEjMC8wLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cuZ2VtYXRpay5kZS9nby9wb2xpY2llczASBgNVHRMBAf8ECDAGAQH/AgEAMA0GCSqGSIb3DQEBCwUAA4IBAQCGCfs4dvOrYSzFpXdOulJpIUWRe7O19XCWVE4Al/nwcvJLCK/o29Oz5401ZjdFRVTQ4K4JPZaIZOeZG7IaQWXp+1dnWmigpBgBAcIFlTxQWyYwE9LUabONBGZAPgwPuH21sVy+gzt3syHzLXhPSnvhEVZhcIoAyT2BOuc8Lptdpw3VZBTGKWdHvb51L0f5Gu2jqZ4/aB0A2m4+cvLZSSwELNVIpE8aefcWWZGbTpsoByMK7fGmKu959txnJnX55bcNvnLrgATefPSRzh73+7P8kVENla+1h5O6pn2DiY1UTMURPKVL7XnnG1pldLEuNyYxp5nlLK3AevKeILTI2o1e</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2024-12-18T10:20:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -5153,7 +5105,7 @@
 								<X509Certificate>MIIEmDCCA4CgAwIBAgIBPjANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yNTA0MDcxNDAwMzJaFw0zMTEwMjYwNzI0MTRaMIGeMQswCQYDVQQGEwJERTEfMB0GA1UECgwWRC1UcnVzdCBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSQwIgYDVQQDDBtELVRydXN0LlNNQ0ItQ0EzNCBURVNULU9OTFkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzXu9GRsqIoAPuvbPK04djA5IRmHb7ZUQIbFOfuczRdnshTy6v95CkpD2dK4flMzAXZd5KU+fOtcOWRGBaLX83L4CoJPevkLramJv+K4c111MHYMHhi+vTQ3UmJCDzVJpgMxHE9Nq3ju5zEGtmDJra2NTeoSMTszZqezW7X7SP3iE6bE6eHiLEoSR3WWlLZaJip/DxVGC0rv9vkojmxhWznnQomk1UC18w8UsixZ7kVqGhAFM+9xEuMD/hxza2gGa2vnkPicxJXC5negn5p3ZnCG4MN7iaPi1qMwPJ5/LqtK2pQpefSYVY9JmMd/ZCaqvfiFEfjQNVOTiz6+vQ2Sd1AgMBAAGjgfswgfgwHQYDVR0OBBYEFDQMuofnm3PSaJ/7QagmBBl5gw9bMB8GA1UdIwQYMBaAFEz34GVYVZjmOYvIB3U9TKZwLM8pMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDAOBgNVHQ8BAf8EBAMCAQYwRgYDVR0gBD8wPTA7BggqghQATASBIzAvMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmdlbWF0aWsuZGUvZ28vcG9saWNpZXMwEgYDVR0TAQH/BAgwBgEB/wIBADANBgkqhkiG9w0BAQsFAAOCAQEAMDmpntsCyi6b8ZG/HHFtIIyTxGGxxI0fDUeCis6Ep2fXcENWDZa285EUz/iHQdK/Id+4Bw82mFtrqlmx61PovStvfbdEhm2jW/htJkB2a9V+Y/2eMgMiZd/U2LznmYd/uj+/lhVL4ll/8Kn8b/AnpQX4d6GwAO3zHyH4PDX+x3wY/GCFJpcoSeWwiVu3qla3TagJT7YBK+FNJkS/OJ8BSWYKZlE0VTIXALQSL1Vx87on98ED2Xh5goYxldbTZ9Ce3SIT2bAFq22dZXbA/P1ptsuHvyPTgO15Wt89oBFiMIbE/y/7s9k52hR3lngO/mOVk/PhZIKdJaSH0d3nIm9xMg==</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2025-04-07T14:01:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -5185,7 +5137,7 @@
 								<X509Certificate>MIIElzCCA3+gAwIBAgIBPTANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yNTA0MDcxNDAwMjhaFw0zMTEwMjYwNzI0MTRaMIGdMQswCQYDVQQGEwJERTEfMB0GA1UECgwWRC1UcnVzdCBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSMwIQYDVQQDDBpELVRydXN0LlNNQ0ItQ0E3IFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMAz79VVLnXByDQdxC5QL1LIbQuJgw6xqAzqGE0nyjdJkFBezcqnQH91p/L6L4GVJMrCMVpzna6INezCA5KX2G5W0H1EITxtRVQi2yNyVRJZe/IHlEulU497DIxMGL7NMRRBvhJfwrAJ5kX0Sjn9SeNXvWFTByr+ZMWSybNktnW2+MZpfGaNyDikzdQtza5Im69C13uFcmfo2DDAGj5GQBoIBbJSxVA8glI3bxctdiBIB4owe3bCgQLsNbznDJJcQjgnEJvgqtXpoa+/Q8Qg/EtwaXd8VygZ3OCIK8A4QO9JTfaJBF5I7W+JdZvo9eILFoXvrAPhAx6goZVR7hdYYz0CAwEAAaOB+zCB+DAdBgNVHQ4EFgQUSWUlt1OTT8UxXXvA/Sz7L3WhrIkwHwYDVR0jBBgwFoAUTPfgZVhVmOY5i8gHdT1MpnAszykwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMA4GA1UdDwEB/wQEAwIBBjBGBgNVHSAEPzA9MDsGCCqCFABMBIEjMC8wLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cuZ2VtYXRpay5kZS9nby9wb2xpY2llczASBgNVHRMBAf8ECDAGAQH/AgEAMA0GCSqGSIb3DQEBCwUAA4IBAQCyrU3eoJwshh9qF0ISKOrYPqd5Ow6K3q1z0rMCpP6LHTzVrWtlWxHmdMn//OV6Xa/mC5qnhiBRU88YS26nee6EldNosncIIBWEkSQzLpX4Nt5UZNJVj8S//agJfAh2dmq7ea0nr3wuMcyeTOMZYQxBafW2Qwt0KxOHsI3qg7ktUmcik6Za0XX7kOCvBy9puX69FBdAsEf6sVormbP2MyKzoPAKkPdWhlBX4/LtBxUfi3QP/GAun+tqR+RVr4ZFWB6RzAZ95BUdiiU7gK8eUuvOShWlNPQ64dq0Zl2qzPeL2uyBv4e4OWJJz4TIL4LEcyWXLoZho1g9hEAmERAV+/EI</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2025-04-07T14:01:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -5241,7 +5193,7 @@
 								<X509Certificate>MIIEmDCCA4CgAwIBAgIBJDANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yMjA5MDEwOTE0MDJaFw0zMDA4MzAwOTE0MDFaMIGeMQswCQYDVQQGEwJERTEfMB0GA1UECgwWRC1UcnVzdCBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSQwIgYDVQQDDBtELVRydXN0LlNNQ0ItQ0EzMiBURVNULU9OTFkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCXfvQe1SDInHtP7u6WqWVkqfgtP14HqP7uAKwar/jiZrObiJP/GPnzTsXB9AFrdUCtTW47owXu2jjNtze31noyNaEyqmUPchW6gyw5NfM4n15Btan6TpaJmlKaE6GvGQW2cp/v9XUT/B6Hms1CKr2V4uaEQHVUJUzn21efOGfMxjwXjM3K7Hn3LuPuUE0kO0JQgyusLDLwYfXZc/fVbPGNB5yAgMNqJaH0flxOVIHwplhkTEztczAmaNwbAFTkIZRVbJhTPMEx56NwSMmjrYJT/qotyP4vsPJTQKhivzkcz0ivIXUx1qm5tDduE9AkF82MNe8+G6VyM5j/zPHTMaLzAgMBAAGjgfswgfgwHQYDVR0OBBYEFMkZY5YCY0FtkLKTZ7lwHljtPLkHMB8GA1UdIwQYMBaAFEz34GVYVZjmOYvIB3U9TKZwLM8pMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDAOBgNVHQ8BAf8EBAMCAQYwRgYDVR0gBD8wPTA7BggqghQATASBIzAvMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmdlbWF0aWsuZGUvZ28vcG9saWNpZXMwEgYDVR0TAQH/BAgwBgEB/wIBADANBgkqhkiG9w0BAQsFAAOCAQEAt1TZ+52s2as5fDtls3Wde0zI3iTFaXhSVSsOEi4cR3LjQbgJfynGJICgyFiehK7etZ1uxStLB6fRdRsqBBxJAgIQCw2rFDCYIH6kMRfyAM9bkUQ6XWi5Leb9stCXVNcFXh/VN1/qackq6hTozGD09gbjlmgCXgTixeqTbzhrcVHyorxF+rWkfI8kRfLGVmeATKafBgW83qP80DFcNSmt6cUdiaai3O6J+xvdZX0cwRPDaMJvnKW7SxCgos93AeG5SIoYlhiJROtAcH9pK2RnFW1lE9P3uLafuQm3F3Ljo2DsxRJ8PeWch9cRhlK2XLOy8u/2/MT9duw7l9+bCipg+A==</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2022-09-01T10:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -5329,7 +5281,7 @@
 								<X509Certificate>MIIEZjCCA06gAwIBAgIBOjANBgkqhkiG9w0BAQsFADCBgTEbMBkGA1UEAwwSR0VNLlJDQTEgVEVTVC1PTkxZMTQwMgYDVQQLDCtaZW50cmFsZSBSb290LUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMR8wHQYDVQQKDBZnZW1hdGlrIEdtYkggTk9ULVZBTElEMQswCQYDVQQGEwJERTAeFw0xNTA0MzAwNzMwMzdaFw0yMzA0MjgwNzMwMzZaMIGdMQswCQYDVQQGEwJERTEfMB0GA1UECgwWRC1UcnVzdCBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSMwIQYDVQQDDBpELVRydXN0LlNNQ0ItQ0EyIFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ+4khLH2QUMcAEAElEpolMWmJ8frqFh55DY0akRW3iaj8vxlwRpcOOZN3Fr6rY0QV0cyJZxc1CqVZBhzgFFJ+8tgdlXKsusYzdpOSVTENuxqWuuIeWRrtXZeghkFXoZzLtqMNJF1aXnc2q3ZrTwrnVWBFB/oTl8HOX5glCipqKKi7y4Bky4xV4iElhy8/Qtwj+hkdAGyP2RlYIoS2QWAFMjP1BCkKNmMmdnkQ/uviibtlty3trZ9PZDW5WH2qB8BOx9T/05WOuT8M6AcdJp20L83bVokpH2a3pOnFEXUr8U1OAtw0DhqV3/kv4JN34WV0QSOfBX8zERlXeYW5V8Y/MCAwEAAaOByjCBxzAdBgNVHQ4EFgQUQv14rjyUT/tjQYJtvmXondNzX5QwHwYDVR0jBBgwFoAUpbEnHYAmEwjCajg/q+UXebsXuJcwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMBUGA1UdIAQOMAwwCgYIKoIUAEwEgSMwDQYJKoZIhvcNAQELBQADggEBABm2KRiN2EcygqZaWbf1VbW0Q9guwBHqF/Me1uswuN6w7HcbxRGJhi8Pu2i4/FR+hW2s7yWB9ygClWYMaxiCvN6tXsYQIywplIY/yK0dOZPJhnGzgHJ91M0plF9BcW3ZJCNhJ/vLgJnEZKrVdghoGL/0TwUmXmgGluTr1lKtZD4zRmbCLZIj/bAOUxdpCFaCgRZYZ2Y08dQ98muUkWTTUzJdEYVEjtLEbrp6WMJ2N9+xHDGPwKyhD00HNBt32vO9q/3+xGu2QtrVr28wWyboldQB8XT9C1+88tQl+P+AfQdJ2GdpUoVp5oWskBg5uvDsj9xS470wPqlr8c+wZD/4XOA=</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2015-04-30T08:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -5361,7 +5313,7 @@
 								<X509Certificate>MIIEZjCCA06gAwIBAgIBHzANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0EyIFRFU1QtT05MWTAeFw0xODA3MjQxMDIzMDJaFw0yNjA3MjIxMDIzMDFaMIGdMQswCQYDVQQGEwJERTEfMB0GA1UECgwWRC1UcnVzdCBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSMwIQYDVQQDDBpELVRydXN0LlNNQ0ItQ0EzIFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKh+0yzUSm3ez0EmdtUT9alRk6ezI8e959i6O/Jc2FlrefVd/buUiLv7arMLF5bXANzulCJbDkVA2mHMJTDxTSvrXgQ7AAepU83OUkaXm0J7iRACamMPktDOeN00g5DNp2ZDMTA4wg8PtUSObD5rhi6rNSxAOd0FI840QQchDGJOY/nlNZM0BkLantXO1E/esGdwG9D0ppXzzNdxHFUZa0XyjBHnPmLU4pp6bLaovDcTy2eDBz1EYVCRP7uO2yRfDlnBieVLWTW+TruPci/Hwkz2TgKu6CayKCzdrHEjCXJ+3aj3fJy52AxNvDy6+rFrtblc7c+5xjtcdjvMrIZK+qECAwEAAaOByjCBxzAdBgNVHQ4EFgQURAjR67/kPoxr/UY520xuXV/wr+IwHwYDVR0jBBgwFoAULWkAu6H0zI4DoiWDksnSY+HZRLgwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMBUGA1UdIAQOMAwwCgYIKoIUAEwEgSMwDQYJKoZIhvcNAQELBQADggEBAAkuJq4zc9FSRNTFYeZ6uQIwDoujGYO7bzgcCmp8DoMYMyvPr7+EvdxQ0IBivMg38jx0hbZpWZSQPlWED8MeT3bRNpdd2IXgM7zcm7iVszolcrKmIp3ZiV10TZWBppPSHtsMzqkfeZyuMwT7BR5fRmDa5gGQNdUFB7XLY0cwejCsYDIQTB8cUYOqhc0a73odQOBxGZOyHcbYDB0eo4fZt3RpK0C2TxMAzba0OdmIuazdGO/VNOvE85fPN/YxgamgOXzCggV2H/JHu1+gGdaJnYmMJt7gqd1Z1qihWqeTXYTmUNSv80YbfxWtr9nWQUR1cmXCyg28osBgv838ipGPE0o=</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2018-07-24T11:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -5633,7 +5585,7 @@
 								<X509Certificate>MIIEZjCCA06gAwIBAgIBJTANBgkqhkiG9w0BAQsFADCBgTEbMBkGA1UEAwwSR0VNLlJDQTEgVEVTVC1PTkxZMTQwMgYDVQQLDCtaZW50cmFsZSBSb290LUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMR8wHQYDVQQKDBZnZW1hdGlrIEdtYkggTk9ULVZBTElEMQswCQYDVQQGEwJERTAeFw0xNDEwMjcxMzE0NThaFw0yMjEwMjUxMzE0NThaMIGdMQswCQYDVQQGEwJERTEfMB0GA1UECgwWZ2VtYXRpayBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSMwIQYDVQQDDBpELVRydXN0LlNNQ0ItQ0ExIFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMoA5pzbo2tSN/t+05MyDT2XkoDG3UEfHZhc+aTPQtrXNOO8ws3MxdCDJtNjmqHtY4pPvziFvV0wqHkzrmUycTdTK4t8IXoOgHnmALPQCRXaQKpFslNfnWVzd/AUs2WaHMyenSaaJOnE0n2wgB11NeKMETWXKYZV22kCM4S5sv55qgniCAbBvSAU+7D0KCQmKfTbzt8nOEYBwOe435MZga6uHlrL3CPIIET1FKuDSkEiphR1FHv/xKrSTcnRp74jpsHbtY9gqpYiddWuAV8YP1bnqPPvH4Fyan3mNG09MCiVOp1uGxBQZ4sywP/Jm6ZyuS934L1nNcP1aAhLS3W5JcCAwEAAaOByjCBxzAdBgNVHQ4EFgQUFqqnL4Fo/eqdETWMfhxc9OUlQPAwHwYDVR0jBBgwFoAUpbEnHYAmEwjCajg/q+UXebsXuJcwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMBUGA1UdIAQOMAwwCgYIKoIUAEwEgSMwDQYJKoZIhvcNAQELBQADggEBACtA02bgg1flvjzpb30xzoYTq4iMu/taafrE4RJkqNtWThb9lA4/WD+9+si7cYmB7KvqqvmqjLOn5/fghV1AfvuLj7RSeMXvKjh0OflhLBc13cx5IlDbSdUFjzzWdpdqX44wkIpzLamuezDYXJFfnYFrUlBG84frueur3hG7oqVvh7Qz+kc1/Bl3N+pawfltuNWOBf1EU1yakP9qTbF0n0EpXaMaqFMOezCUGhB9lwzeN1/XZi9vuZNSji2JAVYj6ypYQb4Nn4ixvzO4oocMHcFOdJ9qwJbm+tPLKrRyuplnddmX+3mYOWwa2V6bd39ZcjUXuPojnG+sYqj+i/ljYgc=</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2014-10-27T13:15:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
@@ -5906,7 +5858,7 @@
 								<X509Certificate>MIIEfzCCA2egAwIBAgIBMjANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0EyIFRFU1QtT05MWTAeFw0xOTEwMTYxMjIwMDNaFw0yNjExMTQxMjIwMDJaMIG2MQswCQYDVQQGEwJERTE6MDgGA1UECgwxVC1TeXN0ZW1zIEludGVybmF0aW9uYWwgR21iSCAtIEcyIExvcyAzIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSEwHwYDVQQDDBhUU1lTSS5TTUNCLUNBMyBURVNULU9OTFkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4v4UkF71xwdSNE+OxkZN1WuOwAN7xTrbEGTnXCA7QXaYvwNWUZz91OdxLxwbicWF2wZR5+GIDJWRjO5kIqn4h6z3aVQyne/4oqMfmWIRnT3kFrHrJUse1K3/cb6fGUzQPMVoa28rp54frEWoPdWDEAV1o/wbeE3RodL4634iLjBhIEKq78OfYuJpHSwD5HlW0gKXG1rkUfpBukyVG644Hwr2lBRL8kD20mfY2Gmc27o1Pr+eHk8s0dB7CfuI7ox4Nd1+3el7Y1DAaTKDwSeHJquli3cjpF6rvvAxvZTFCwgpcJ79y37/NYim1fBW0qO1ICejcw1Js8NhgwGz42R8TAgMBAAGjgcowgccwHQYDVR0OBBYEFDM91OvdZLz9AC/BNptcFVhFK64sMB8GA1UdIwQYMBaAFC1pALuh9MyOA6Ilg5LJ0mPh2US4MEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMA0GCSqGSIb3DQEBCwUAA4IBAQB0vhuAdSlQtEHuOq7kDRe6UJsZiQn7DnkvwWLO3GlJ/rGwmfAygnk30Ie6qAJpFRBxhj1Yzb6lR+AKfwHRQKsI4qB7iF8mzG1Bhtr+IE5dSWvLWEke2qJf8R7yXOr7vT2+CvkUtdnSA7D8qPWj6lYiGFMXgzlqPtDZJTfPb9KERvuMdSJdatp3fnf1BBo6qIylOe9UsOKBQLbJkSChJKXj1AaSp1Bej34FV5b0xSpEOR16UI4gob6PiCaKzLh0IrcYkEE36XRb06wSlKgHuxr09OKG3NmF+0TTzIvx+gAPQR1r/bkOs+DuQhufSoCG8YP5ZH0B/ckYTM51C2nlko5K</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2019-10-16T13:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.tsi.tsp-smc-b.telematik-test/ocspr</ServiceSupplyPoint>
@@ -6186,7 +6138,7 @@
 								<X509Certificate>MIIEfzCCA2egAwIBAgIBCzANBgkqhkiG9w0BAQsFADCBgTEbMBkGA1UEAwwSR0VNLlJDQTEgVEVTVC1PTkxZMTQwMgYDVQQLDCtaZW50cmFsZSBSb290LUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMR8wHQYDVQQKDBZnZW1hdGlrIEdtYkggTk9ULVZBTElEMQswCQYDVQQGEwJERTAeFw0xNDA1MjAxMDA1MDNaFw0yMjA1MTgxMDA1MDNaMIG2MQswCQYDVQQGEwJERTE6MDgGA1UECgwxVC1TeXN0ZW1zIEludGVybmF0aW9uYWwgR21iSCAtIEcyIExvcyAzIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSEwHwYDVQQDDBhUU1lTSS5TTUNCLUNBMSBURVNULU9OTFkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAeyQ3DeFLIc7UA2mCoP133ZgJxcOlu5yuVpG2Q+FLCVltsJGzzta/z4rFcYvHqcD0Ci61fXD5+Zge3eNG3e7jacydM4441VTVP/k+zxjeFt7xW9Wst0lwkRy5H810rwRg+r/c1gmJAu23jd0euITS0XdFbkbXaBmRVdk3H3I/ycRfteQIIFBIlvnHUhEs5k8oMWAlNQ7v4hy1OjXzSzAP4X9jnNkBXqWFNRSaPh3e/kUpcVYt87SeWucp+0k/90rhl5H1Qw7JIdPX9sn7ph5+F1N9hrXAbyDTCjAQPbeD/hI4GFCcUUBqOx4Vr2NASeKJtMUDyiN5U54VeGMqh/DtAgMBAAGjgcowgccwHQYDVR0OBBYEFKtUyLw4LkdyiycWjw9EMzN03ZBgMB8GA1UdIwQYMBaAFKWxJx2AJhMIwmo4P6vlF3m7F7iXMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMA0GCSqGSIb3DQEBCwUAA4IBAQBwrONyvUU3SkXsGy4QC09cXl1QohzLQpHZJBbMJOfmRcOOrLquks4bvfAIhN0AnrkEm6DWnRaMrsAc8w+N89tf9gBPeK6PbQCuYOTHD7yELKxosj0Idfi9yLDagEWdJxAxSqanRrZ13xa9JoBuk83rXEC4DcRNvIjklG1+ZC/nMC65nywmKR2QTYwhbXcZZlPNbtOs5ieEsxEjypKIthIhbxqr3hzvn8bJpYRONMIGIQQZQwnXIhGyxoPGfB2/OEVwLHbhNjhBpqhtcaP8tLV1ANjv4WAQY4vhsrPjP2E0A3vDksRFt1bZT14Zq1kphnCBxbM/oGnZwxP6tMaRr9+N</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2014-05-20T10:06:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.tsi.tsp-smc-b.telematik-test/ocspr</ServiceSupplyPoint>
@@ -6479,7 +6431,7 @@
 								<X509Certificate>MIIEwjCCA6qgAwIBAgIBBzANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0EyIFRFU1QtT05MWTAeFw0xNjEyMTQxMDE3MTlaFw0yNDEyMTIxMDE3MThaMIGaMQswCQYDVQQGEwJERTEfMB0GA1UECgwWZ2VtYXRpayBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSAwHgYDVQQDDBdHRU0uU01DQi1DQTI0IFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL2/tHEtL5kc9CWsUexdU3mV9oo5XvbjoSo92igqsCa2Pl8pUhJbvx7Ug7x2vMS5Gzw8nk4hQrr4cimm1nm0hRuuo5RvD8NfTU3lc7v+WpcdTLcgtjwCyO4nZDnn4AzHx2ZUofJpQRDzPI2C19+M0Vye7xqIcMY7CWK6TxMsYSsK1rCk6FKp4G6F3nxbNIl3IkgHRYyAhIYgDIKcvsnFTjh18lsVlG/0GqO3GtEyJ5nYtC7Doz+/rPyUzs0mvwnbISwMHl12zfEvN/QS0J/BUtfCid8O/ougQoCIGjKQE+Tdz5BmdjCZ6QQFcEuZwOqoKK9zgXsqquXGlYraCEid0U0CAwEAAaOCASgwggEkMB0GA1UdDgQWBBR66eFv6hRZFgXuA+nT/SGr3unZnjAfBgNVHSMEGDAWgBQtaQC7ofTMjgOiJYOSydJj4dlEuDBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAQYwFQYDVR0gBA4wDDAKBggqghQATASBIzBbBgNVHREEVDBSoFAGA1UECqBJDEdnZW1hdGlrIEdlc2VsbHNjaGFmdCBmw7xyIFRlbGVtYXRpa2Fud2VuZHVuZ2VuIGRlciBHZXN1bmRoZWl0c2thcnRlIG1iSDANBgkqhkiG9w0BAQsFAAOCAQEATeg5D0Mw12me693UXayRoL1XOkb3jprxneDs+3uIRxMfvOFX6fOd/SoCSiHmeqRCibkHW68jZRqDbwgTH1dIDhAG61a5E/x0DJGWLmgrtNVfZllq00WiS/4GUIKypo3aLEIqjxSWnWiSHh9hnKiWvRcQX01NxF7aXqVU4blQi8SQPnP1dmDJWTqXlKMaIi+PJb4qRWGxZwVffYL+j9rrmKYSUGAdukLwBK/3VTsrKJDXBMu7VizQG9zJ0KE/u5ZxkP0uSrPPO8mTDsg91nB1OkV645B/m5RrMz+izu3mmZrrLA9FglZDiQkR6OL24RVl3s2+nJ4s0dg0jMgic0AAQQ==</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2016-12-14T11:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ehca-testref.komp-ca.telematik-test:8080/status/ocsp</ServiceSupplyPoint>
@@ -7010,60 +6962,12 @@
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.283</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_osig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.175</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cm_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.80</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_nk_vpn</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.287</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zd_sig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.155</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.169</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_s</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.301</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.202</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.113</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_sak_aut</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.157</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zd_tls_s</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.168</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.82</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_smkt_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.300</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_sig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.203</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_sig</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.79</ns:ExtensionOID>
@@ -7083,7 +6987,7 @@
 								<X509Certificate>MIIElDCCA3ygAwIBAgIBETANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yMTExMDgxNDM0MzZaFw0yOTExMDYxNDM0MzVaMIGaMQswCQYDVQQGEwJERTEfMB0GA1UECgwWZ2VtYXRpayBHbWJIIE5PVC1WQUxJRDFIMEYGA1UECww/SW5zdGl0dXRpb24gZGVzIEdlc3VuZGhlaXRzd2VzZW5zLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSAwHgYDVQQDDBdHRU0uU01DQi1DQTQxIFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANCGsCJCWzoxXxRAwtciOxwu4poye+WREARfU40pMCq7hhGCsrwYE8C2f85XgJHzpUctuPZ7REflJ2YUOfrRcsChOIhJRhgiuZVIAOMj0p71eI2Biya/JTaSc3J4LEYu0N5xGxD16IlOIN5eDOtYWJ3dv07iankIJ53l2sdepfYg9o5BbU8+YDOsh+L53xzj+my+rcRgxuALEHpz0hP9GC9WwyOaOks8aJhUtQhAxiPxn32GXM3bEvFPGa1H1Q9aUd+zEULC0hdm1AUidzVa5WM8ctf+QoNDWCERPXE/4WnaiJP2iXk+NZWCZdgssrvBd+oAIvHA6Fy4vphEKG2BF/0CAwEAAaOB+zCB+DAdBgNVHQ4EFgQUuvg6WBH2huoEom3Eeuu5s/pLb8IwHwYDVR0jBBgwFoAUTPfgZVhVmOY5i8gHdT1MpnAszykwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMA4GA1UdDwEB/wQEAwIBBjBGBgNVHSAEPzA9MDsGCCqCFABMBIEjMC8wLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cuZ2VtYXRpay5kZS9nby9wb2xpY2llczASBgNVHRMBAf8ECDAGAQH/AgEAMA0GCSqGSIb3DQEBCwUAA4IBAQBz2OxklKj5ZQhLUA+o4H2cDHrB0EklqHQSksInTxZO2KME0Y4d8qHlvHd92WqCvQxr1l9/9YJaGrdcm/z3vIBdR2WQmiZNeWkrTDXzIR3+jP2tiYtYOexAkLu9ka32lCHS5VybbPa4pxH3uN8C0utOVJcvMNYz0TvpIjut82Khi+Ni+DoYE/L+NaithaM8DYJzt0zKWHR5dxPTsgBZr36zeZ+B2j8J3UtoBLdgtOFoaw16iklsyfhPpI0B+7V9GhKW9L+72PKw+LGi4xFiOleoZDgr3w15az89a6PoiWJlVC9hNMJlrMOV47VkKEnD3BC7lL4zVcMbOXSKlG2jIAu3</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2021-11-08T15:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ehca-testref.komp-ca.telematik-test:8080/status/ocsp</ServiceSupplyPoint>
@@ -7139,7 +7043,7 @@
 								<X509Certificate>MIIEjzCCA3egAwIBAgIBODANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yNDEwMjkxMzU0NTNaFw0zMTEwMjYwNzI0MTRaMIGVMQswCQYDVQQGEwJERTEaMBgGA1UECgwRZ2VtYXRpayBOT1QtVkFMSUQxSDBGBgNVBAsMP0luc3RpdHV0aW9uIGRlcyBHZXN1bmRoZWl0c3dlc2Vucy1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEgMB4GA1UEAwwXR0VNLlNNQ0ItQ0E0NCBURVNULU9OTFkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC78v/YpdY16rvZ/r75rn8o0Q1DCl0uzG4JTEi8Vh9umsh+oecotpA8Dgw0gIykYEG/sID9i0ZAbYaZFktODm1y8vBxyuoZhQxauxXuL2TZzUens08v249BdQxuA7fbaJCYoGkYLKb3WgAcnAhDMFvprPPSt41E27xGobl2cTeeeJVT/btxNV6RCcvNSEsstB+KecSGUXP/hCpKO1cf9S6fU53icwCSnCIVe0vxvyH2m4C/zf9cIae8EMsgzqqp4uqpV6HhU+kMOXNO5+Ctnryyafyypcz0KtvHyodfNMxwgvE9PGpkXKpsp/i5rp4rr11Hcy2YB2lo8pFBYMFAU/uvAgMBAAGjgfswgfgwHQYDVR0OBBYEFNQP+5ese8rqCYYDIqdLUoeUS2PYMB8GA1UdIwQYMBaAFEz34GVYVZjmOYvIB3U9TKZwLM8pMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAYYuaHR0cDovL29jc3AtdGVzdHJlZi5yb290LWNhLnRpLWRpZW5zdGUuZGUvb2NzcDAOBgNVHQ8BAf8EBAMCAQYwRgYDVR0gBD8wPTA7BggqghQATASBIzAvMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmdlbWF0aWsuZGUvZ28vcG9saWNpZXMwEgYDVR0TAQH/BAgwBgEB/wIBADANBgkqhkiG9w0BAQsFAAOCAQEAMaRPv/x81WO4EvUORL8DgXv9d7nmoAA++2oj18ymlUSBZs+mS7WcN0WIZI04d1Bj5kHxIVttg276mo2MW+28mZBb5IWlKQU4Wr+A0S/gS7Teh4AgEgrDjp3lmWryvHGG7HtKKaorvchmkJd6l2HMPrTZ/I/LCwAt9y2nLrhUACWcKvEmEYX4HSrPBcmwDye5UG/am/ympW2HpqE9f/5DKDUsSwogdfNyls9UMSb1USGjekIQw8dtHrOozbjJr62DcsuNevXz+iRt4MIQTAzCqEytgZ++G9XdB7HDgYJE9VrfPKwMJ9XZBasFSe5cPH42NHWIxtnMZA6Zh87LRaxmbQ==</X509Certificate>
 							</DigitalId>
 						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
 						<StatusStartingTime>2024-10-29T13:55:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ehca-testref.komp-ca.telematik-test:8080/status/ocsp</ServiceSupplyPoint>
@@ -7274,60 +7178,12 @@
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.283</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_osig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.175</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cm_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.80</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_nk_vpn</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.155</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.287</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zd_sig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.169</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_s</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.202</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.301</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.113</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_sak_aut</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.157</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zd_tls_s</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.168</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.300</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_sig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.82</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_smkt_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.203</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_sig</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.79</ns:ExtensionOID>
@@ -7540,28 +7396,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1769558412108">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1771027212066">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1769558412105" URI="">
+			<ds:Reference Id="Reference-TSL-1771027212063" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>xH3mBauy5D8Z9X8Io80V9sCZ6TyCmbHAa3jxgt8jkjo=</ds:DigestValue>
+				<ds:DigestValue>J+W4b7jD9LEchw5rk2v711HUtK4zAz/0tx09XGdtUz8=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1769558412108" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1769558412108">
+			<ds:Reference Id="Reference-SignedProperties-1771027212066" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1771027212066">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>tE1o5TPqasslcv9YY4VS+JoyNyUY9Hstn0v9Z/RUTJA=</ds:DigestValue>
+				<ds:DigestValue>MtrRoEWSa5Ad6wOQjO9l+d7GWUbjowIQI3wp/kTrK48=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>TcdVr/wpeqQhUHblS3sWbV1WjPdzhhswJ52RBGEPo5gxHl4d97R68+aKYM8lDmXvH1PYOGDVcFfm
-4C65Fwyf/Q==</ds:SignatureValue>
+		<ds:SignatureValue>p2Ji0b14GrjIb5WhDOH0sJKvhFCBbk24NB/d9u5YVi2Z3BhB1vMv4m1jURD1GDoFv9R4XyRTIC4Z
+cQLYxHWUBg==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -7579,10 +7435,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1769558412108">
-				<xades:SignedProperties Id="SignedProperties-1769558412108">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1771027212066">
+				<xades:SignedProperties Id="SignedProperties-1771027212066">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2026-01-28T00:00:12Z</xades:SigningTime>
+						<xades:SigningTime>2026-02-14T00:00:12Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -7597,7 +7453,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1769558412105">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1771027212063">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
