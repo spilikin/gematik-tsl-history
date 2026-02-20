@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31065320260214000016Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31065520260220083023Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10653</TSLSequenceNumber>
+		<TSLSequenceNumber>10655</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2026-02-14T00:00:16Z</ListIssueDateTime>
+		<ListIssueDateTime>2026-02-20T08:30:23Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-03-16T00:00:16Z</dateTime>
+			<dateTime>2026-03-22T08:30:23Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -91,7 +91,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2020-08-05T14:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.achelos.de:8080/ocsp/smcb</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -1152,59 +1152,6 @@
 		<TrustServiceProvider>
 			<TSPInformation>
 				<TSPName>
-					<Name xml:lang="DE">CompuGroup Medical Deutschland AG</Name>
-				</TSPName>
-				<TSPTradeName>
-					<Name xml:lang="DE">CompuGroup Medical Deutschland AG</Name>
-				</TSPTradeName>
-				<TSPAddress>
-					<PostalAddresses>
-						<PostalAddress xml:lang="de-DE">
-							<StreetAddress>Maria Trost 21</StreetAddress>
-							<Locality>Koblenz</Locality>
-							<StateOrProvince>Rheinland-Pfalz</StateOrProvince>
-							<PostalCode>56070</PostalCode>
-							<CountryName>DE</CountryName>
-						</PostalAddress>
-					</PostalAddresses>
-					<ElectronicAddress>
-						<URI>mailto:itsm.telemed.de@cgm.com</URI>
-					</ElectronicAddress>
-				</TSPAddress>
-				<TSPInformationURI>
-					<URI xml:lang="DE">https://www.cgm.com/de/index.de.jsp</URI>
-				</TSPInformationURI>
-			</TSPInformation>
-			<TSPServices>
-				<TSPService>
-					<ServiceInformation>
-						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
-						<ServiceName>
-							<Name xml:lang="DE">CN=SGD1-EPA-01,O=CompuGroup Medical Deutschland AG TEST-ONLY - NOT-VALID,C=DE</Name>
-						</ServiceName>
-						<ServiceDigitalIdentity>
-							<DigitalId>
-								<X509Certificate>MIIC+jCCAqCgAwIBAgICFKIwCgYIKoZIzj0EAwIwgYQxCzAJBgNVBAYTAkRFMR8wHQYDVQQKDBZnZW1hdGlrIEdtYkggTk9ULVZBTElEMTIwMAYDVQQLDClLb21wb25lbnRlbi1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjEgMB4GA1UEAwwXR0VNLktPTVAtQ0EyOCBURVNULU9OTFkwHhcNMjEwMjE2MDczOTEzWhcNMjYwMjE1MDczOTEyWjBlMQswCQYDVQQGEwJERTFAMD4GA1UECgw3Q29tcHVHcm91cCBNZWRpY2FsIERldXRzY2hsYW5kIEFHIFRFU1QtT05MWSAtIE5PVC1WQUxJRDEUMBIGA1UEAwwLU0dEMS1FUEEtMDEwWjAUBgcqhkjOPQIBBgkrJAMDAggBAQcDQgAEpCZKnVifhzUSSKQ+ox6+Z+Kyf++B1wGRwePTPxjKlnR2dVdzEZBKvY6zd5g+yUs5lVvdHZXaXrvlwBIxw8I0sKOCAR0wggEZMB0GA1UdDgQWBBQJfAL8PD+WHdtDk7hgDXRs+Rs+LjAfBgNVHSMEGDAWgBQAajiQ85muIY9S2u7BjG6ArWEiyTBPBggrBgEFBQcBAQRDMEEwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMi10ZXN0cmVmLmtvbXAtY2EudGVsZW1hdGlrLXRlc3Qvb2NzcC9lYzAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIFWMEUGBSskCAMDBDwwOjA4MDYwNDAyMCQMIkhTTSBTY2hsw7xzc2VsZ2VuZXJpZXJ1bmdzZGllbnN0IDEwCgYIKoIUAEwEgVswCgYIKoZIzj0EAwIDSAAwRQIgBH9KPwO7spwKdEaxavg+TrjIKWXao8MrDwu4c1u/4nkCIQCP76NmjsZQYvv2UUTDD8OKhQlthQjdKCcStpIZ7/fjnw==</X509Certificate>
-							</DigitalId>
-						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2021-02-16T09:50:00Z</StatusStartingTime>
-						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
-						</ServiceSupplyPoints>
-						<ServiceInformationExtensions>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
-							</Extension>
-						</ServiceInformationExtensions>
-					</ServiceInformation>
-				</TSPService>
-			</TSPServices>
-		</TrustServiceProvider>
-		<TrustServiceProvider>
-			<TSPInformation>
-				<TSPName>
 					<Name xml:lang="DE">eHealth Experts GmbH</Name>
 				</TSPName>
 				<TSPTradeName>
@@ -1443,7 +1390,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2017-11-27T15:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://tirutu-ocsp-smcb.medisign.tsp-smc-b.telematik-test:8080/ocsp</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -1611,7 +1558,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2025-04-07T14:01:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://tirutu-ocsp-smcb.medisign.tsp-smc-b.telematik-test:8080/ocsp</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -3293,7 +3240,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2019-05-16T13:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -4879,7 +4826,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2021-11-15T15:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T15:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -5389,7 +5336,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2024-09-25T13:11:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -5525,7 +5472,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2024-12-18T10:20:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.atos.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -5710,7 +5657,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2025-05-05T11:54:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -5814,7 +5761,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2025-04-07T14:01:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -5846,7 +5793,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2025-04-07T14:01:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -5902,7 +5849,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2022-09-01T10:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -5990,7 +5937,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2015-04-30T08:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -6046,7 +5993,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2018-07-24T11:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -6318,7 +6265,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2014-10-27T13:15:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp.bdr.tsp-smc-b.telematik-test</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -6663,7 +6610,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2019-10-16T13:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.tsi.tsp-smc-b.telematik-test/ocspr</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -6943,7 +6890,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2014-05-20T10:06:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ocsp-smcb-testref.tsi.tsp-smc-b.telematik-test/ocspr</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -7160,10 +7107,10 @@
 				<TSPAddress>
 					<PostalAddresses>
 						<PostalAddress xml:lang="de-DE">
-							<StreetAddress>Friedrichstr. 136</StreetAddress>
+							<StreetAddress>Rosenthaler Str. 30</StreetAddress>
 							<Locality>Berlin</Locality>
 							<StateOrProvince>BE</StateOrProvince>
-							<PostalCode>10117</PostalCode>
+							<PostalCode>10178</PostalCode>
 							<CountryName>DE</CountryName>
 						</PostalAddress>
 					</PostalAddresses>
@@ -7260,7 +7207,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2016-12-14T11:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ehca-testref.komp-ca.telematik-test:8080/status/ocsp</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -7816,7 +7763,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2021-11-08T15:00:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ehca-testref.komp-ca.telematik-test:8080/status/ocsp</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -7872,7 +7819,7 @@
 							</DigitalId>
 						</ServiceDigitalIdentity>
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/revoked</ServiceStatus>
-						<StatusStartingTime>2024-10-29T13:55:00Z</StatusStartingTime>
+						<StatusStartingTime>2026-02-16T09:00:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>http://ehca-testref.komp-ca.telematik-test:8080/status/ocsp</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
@@ -8224,28 +8171,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1771027216700">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1771576224081">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1771027216697" URI="">
+			<ds:Reference Id="Reference-TSL-1771576224078" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>WPNTnLvdEsY/F7Kp8vfHn//fJVugxHIIC9Y0+cFWNxI=</ds:DigestValue>
+				<ds:DigestValue>V1NZfIF+nTHfibgnf3ffR/GuOzYr/LSJg5qn5ydPKV8=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1771027216700" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1771027216700">
+			<ds:Reference Id="Reference-SignedProperties-1771576224081" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1771576224081">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>UYfmOj9IswCt7MHF/ZG9EdGvuOq7e+l/iuWxQ67VFIw=</ds:DigestValue>
+				<ds:DigestValue>2gyo6Sk91p6mGcGHvfrgiQ5YgTgPbKVYARoLHIWNunY=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>AuXURF57sRvEeNg+SD5erYEF1nWLV0helCa+/zu7VmERSePKDZy/Uuqi0GiuQ2xxHojR9XKsi/yp
-WiMVgBRT1A==</ds:SignatureValue>
+		<ds:SignatureValue>ZBQqJ511HNedzExaRotPQKGVJZKc6hvn/5gYcB4ISGyfGZy8NFn2uMCkIC7jCOaArIf9Hb4zV8+x
+57mruoffCg==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -8263,10 +8210,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1771027216700">
-				<xades:SignedProperties Id="SignedProperties-1771027216700">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1771576224081">
+				<xades:SignedProperties Id="SignedProperties-1771576224081">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2026-02-14T00:00:16Z</xades:SigningTime>
+						<xades:SigningTime>2026-02-20T08:30:24Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -8281,7 +8228,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1771027216697">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1771576224078">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
