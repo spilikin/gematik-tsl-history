@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31065720260228000016Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31066020260311134037Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10657</TSLSequenceNumber>
+		<TSLSequenceNumber>10660</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -10,10 +10,10 @@
 		<SchemeOperatorAddress>
 			<PostalAddresses>
 				<PostalAddress xml:lang="DE">
-					<StreetAddress>Friedrichstrasse 136</StreetAddress>
+					<StreetAddress>Rosenthaler Strasse 30</StreetAddress>
 					<Locality>Berlin</Locality>
 					<StateOrProvince>Berlin</StateOrProvince>
-					<PostalCode>10117</PostalCode>
+					<PostalCode>10178</PostalCode>
 					<CountryName>DE</CountryName>
 				</PostalAddress>
 			</PostalAddresses>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2026-02-28T00:00:16Z</ListIssueDateTime>
+		<ListIssueDateTime>2026-03-11T13:40:37Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-03-30T00:00:16Z</dateTime>
+			<dateTime>2026-04-10T13:40:37Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -7217,6 +7217,54 @@
 					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
 						<ServiceName>
+							<Name xml:lang="DE">CN=tigw.gematik.solutions,SERIALNUMBER=29071-brainpool,O=gematik TEST-ONLY - NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDJDCCAsmgAwIBAgIHA69fGQKJ5zAKBggqhkjOPQQDAjCBhDELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxMjAwBgNVBAsMKUtvbXBvbmVudGVuLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSAwHgYDVQQDDBdHRU0uS09NUC1DQTU3IFRFU1QtT05MWTAeFw0yNTA3MjgyMjAwMDBaFw0zMDA3MjgyMTU5NTlaMHAxCzAJBgNVBAYTAkRFMSYwJAYDVQQKDB1nZW1hdGlrIFRFU1QtT05MWSAtIE5PVC1WQUxJRDEYMBYGA1UEBRMPMjkwNzEtYnJhaW5wb29sMR8wHQYDVQQDDBZ0aWd3LmdlbWF0aWsuc29sdXRpb25zMFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABBfIXikr+F+vrLL6MnMyQV+MAaPY0N+Y5wkPYBy8yE5vf8/UMy9GZTvXqgV6G4VwVKeOKRmymVnNq5MQl9k5RrCjggE2MIIBMjAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIEpMB0GA1UdDgQWBBSbeJUvt5e0pTVV7JX0ePEwRPOh5zA6BgUrJAgDAwQxMC8wLTArMCkwJzAZDBdUSS1HYXRld2F5IFp1Z2FuZ3Ntb2R1bDAKBggqghQATASCNTAOBgNVHQ8BAf8EBAMCB4AwIQYDVR0RBBowGIIWdGlndy5nZW1hdGlrLnNvbHV0aW9uczATBgNVHSUEDDAKBggrBgEFBQcDATAfBgNVHSMEGDAWgBRYkjsQ0J674x68n7/+UB0Iv1eQ8DA7BggrBgEFBQcBAQQvMC0wKwYIKwYBBQUHMAGGH2h0dHA6Ly9laGNhLmdlbWF0aWsuZGUvZWNjLW9jc3AwDAYDVR0TAQH/BAIwADAKBggqhkjOPQQDAgNJADBGAiEAhx1OSM89CXgEhQNeA2AAn7vSOfIolsSjs1jQZ24vVSwCIQCOGZ3Lq0ntNzh0w9Ilsh3JTclw7/L47mHZKiKTOP/RJA==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-07-28T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://tigw.gematik.solutions</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.309</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tigw_zugm</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=tsp.gematik.solutions,SERIALNUMBER=29071-brainpool,O=gematik TEST-ONLY - NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDQjCCAumgAwIBAgIHATiV8L9blzAKBggqhkjOPQQDAjCBhDELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxMjAwBgNVBAsMKUtvbXBvbmVudGVuLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMSAwHgYDVQQDDBdHRU0uS09NUC1DQTU3IFRFU1QtT05MWTAeFw0yNTA3MjgyMjAwMDBaFw0zMDA3MjgyMTU5NTlaMG8xCzAJBgNVBAYTAkRFMSYwJAYDVQQKDB1nZW1hdGlrIFRFU1QtT05MWSAtIE5PVC1WQUxJRDEYMBYGA1UEBRMPMjkwNzEtYnJhaW5wb29sMR4wHAYDVQQDDBV0c3AuZ2VtYXRpay5zb2x1dGlvbnMwWjAUBgcqhkjOPQIBBgkrJAMDAggBAQcDQgAEnuCh8IkF59U0+eJ7qAwJWRhTPJCDdSOaPbWu+mchgqKRKKgEKRqI29b0IWY27cU/gjnVcTG3t+M0q4fppIY9v6OCAVcwggFTMB8GA1UdIwQYMBaAFFiSOxDQnrvjHryfv/5QHQi/V5DwMB0GA1UdDgQWBBSi6px8/ErQeWAkI6KOMHd4iMn9pjAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIEoMAwGA1UdEwEB/wQCMAAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwDgYDVR0PAQH/BAQDAgeAMCAGA1UdEQQZMBeCFXRzcC5nZW1hdGlrLnNvbHV0aW9uczBcBgUrJAgDAwRTMFEwTzBNMEswSTA7DDlUZWNobmlzY2hlIFplcnRpZmlrYXRzYXVzZ2FiZXN0ZWxsZSBlaW5lcyBBbmJpZXRlcnMgU01DLUIwCgYIKoIUAEwEgjYwOwYIKwYBBQUHAQEELzAtMCsGCCsGAQUFBzABhh9odHRwOi8vZWhjYS5nZW1hdGlrLmRlL2VjYy1vY3NwMAoGCCqGSM49BAMCA0cAMEQCIFCcKtMe/9S/5QTep73nKxZ4TmXS3HsakZehwcolAPzpAiAIAh6F3Y+RTw1jHM8NvtPIFnjCxmDSll4h/Qn8EEwgsA==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2025-07-28T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://tsp.gematik.solutions/login/oauth2/code</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.310</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zert_smb</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
+						<ServiceName>
 							<Name xml:lang="DE">CN=tsp.gematik.solutions,O=gematik TEST-ONLY - NOT-VALID,C=DE</Name>
 						</ServiceName>
 						<ServiceDigitalIdentity>
@@ -8261,28 +8309,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1772236817162">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1773236438328">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1772236817159" URI="">
+			<ds:Reference Id="Reference-TSL-1773236438325" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>HmMOyG9Ewm0eRKVdw3dsnAkZRpIBnlqJHiG6jyaCoGo=</ds:DigestValue>
+				<ds:DigestValue>WGvxc4L3cpFlTWf9H5sXHR2ZlrGF0rTeAMgPMvA77Zk=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1772236817162" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1772236817162">
+			<ds:Reference Id="Reference-SignedProperties-1773236438328" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1773236438328">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>IqUTkl18oeBJ5670D0fH3iL0YxFaxkyMyKE6jNFGoMY=</ds:DigestValue>
+				<ds:DigestValue>T+OLSAC/HlXYN//fri2cxHuAgaFlKzEdK7y820d29Z4=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>WEPb51QZg5RtpiZDNQszaXagy1+ozAOz6CXcAxsW+tN6e7dxFD/rPDs4J2UmfRNlwPvrxKlmkH1k
-PXJfDUxHHQ==</ds:SignatureValue>
+		<ds:SignatureValue>EmPHUv+cFsgaG5JuZbkxxCgvWHivmvQfmiWlXh3fau4TKkjmnp2Ou1MCOx6H8ys8HfWtJFN3x4J1
+zoIHEFpG9g==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -8300,10 +8348,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1772236817162">
-				<xades:SignedProperties Id="SignedProperties-1772236817162">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1773236438328">
+				<xades:SignedProperties Id="SignedProperties-1773236438328">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2026-02-28T00:00:17Z</xades:SigningTime>
+						<xades:SigningTime>2026-03-11T13:40:38Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -8318,7 +8366,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1772236817159">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1773236438325">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
