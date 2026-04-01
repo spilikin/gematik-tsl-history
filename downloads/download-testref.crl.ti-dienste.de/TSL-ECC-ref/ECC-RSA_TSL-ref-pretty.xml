@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31066720260328000017Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31066920260401140418Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10667</TSLSequenceNumber>
+		<TSLSequenceNumber>10669</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2026-03-28T00:00:17Z</ListIssueDateTime>
+		<ListIssueDateTime>2026-04-01T14:04:18Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-04-27T00:00:17Z</dateTime>
+			<dateTime>2026-05-01T14:04:18Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -1454,7 +1454,7 @@
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
 						<StatusStartingTime>2025-09-01T14:54:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>https://hsmb.ru.infinity-gate.de/</ServiceSupplyPoint>
+							<ServiceSupplyPoint>https://hsmb.ru.infinity-gate.de</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
@@ -2017,7 +2017,7 @@
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
 						<StatusStartingTime>2026-03-16T13:47:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>https://smb.ru.ti-gateway.de/</ServiceSupplyPoint>
+							<ServiceSupplyPoint>https://smb.ru.ti-gateway.de</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
@@ -10125,28 +10125,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1774656017941">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1775052259544">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1774656017937" URI="">
+			<ds:Reference Id="Reference-TSL-1775052259540" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>0TEnb2fAU3V6utYctTIOcsz+cnVZYRQNlM8n7zNTQVk=</ds:DigestValue>
+				<ds:DigestValue>7p7WBZPPV/1nkBKFoHArdhocJwZdI+HA0VcbnYmNKPs=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1774656017941" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1774656017941">
+			<ds:Reference Id="Reference-SignedProperties-1775052259544" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1775052259544">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>JYHqGHO7LXVcM3bjAO/aD+5FihfB1UcwSWaZEeYF7gA=</ds:DigestValue>
+				<ds:DigestValue>SzCent8h8jiC6apxGtMfbDU8HWR7jo9+3WBZfa5GPgA=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>Jr+SnqF+YnBMlNSb4uwEXm5yTHk+K/OJmNPXDTWfFEqc7ZcEqAf9n5koAnLSUTSSdJIUxySPauHJ
-i/aduuCT3Q==</ds:SignatureValue>
+		<ds:SignatureValue>AO6lhO+dvZN7WnK2NXs7k9XlBrOyEUyp2WLaVh48aFdIx/ALYNZaJthohmssyf/dK2lZBDDoVStd
+hhzWYoaXfw==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -10164,10 +10164,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1774656017941">
-				<xades:SignedProperties Id="SignedProperties-1774656017941">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1775052259544">
+				<xades:SignedProperties Id="SignedProperties-1775052259544">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2026-03-28T00:00:17Z</xades:SigningTime>
+						<xades:SigningTime>2026-04-01T14:04:19Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -10182,7 +10182,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1774656017937">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1775052259540">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
