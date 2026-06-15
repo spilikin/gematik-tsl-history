@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31068820260602130342Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31069220260613230018Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10688</TSLSequenceNumber>
+		<TSLSequenceNumber>10692</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">TEST-ONLY gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2026-06-02T13:03:42Z</ListIssueDateTime>
+		<ListIssueDateTime>2026-06-13T23:00:18Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-07-02T13:03:42Z</dateTime>
+			<dateTime>2026-07-13T23:00:18Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -167,10 +167,6 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.80</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_nk_vpn</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.155</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_aut</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.169</ns:ExtensionOID>
@@ -479,34 +475,6 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
-							</Extension>
-						</ServiceInformationExtensions>
-					</ServiceInformation>
-				</TSPService>
-				<TSPService>
-					<ServiceInformation>
-						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
-						<ServiceName>
-							<Name xml:lang="DE">CN=ACHELOS.VPNK-CA20 TEST-ONLY,OU=VPN-Zugangsdienst-CA der Telematikinfrastruktur,O=achelos GmbH NOT-VALID,C=DE</Name>
-						</ServiceName>
-						<ServiceDigitalIdentity>
-							<DigitalId>
-								<X509Certificate>MIIEVzCCAz+gAwIBAgIBPjANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0EyIFRFU1QtT05MWTAeFw0yMDA4MDUxMjU2NThaFw0yNjExMTQxMjU2NTdaMIGOMQswCQYDVQQGEwJERTEfMB0GA1UECgwWYWNoZWxvcyBHbWJIIE5PVC1WQUxJRDE4MDYGA1UECwwvVlBOLVp1Z2FuZ3NkaWVuc3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxJDAiBgNVBAMMG0FDSEVMT1MuVlBOSy1DQTIwIFRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJkhndYqnZ68hTBQajVmkFfnTB2+dQ24QkuHkzAi+KChikEHQ5VUap9rdJGYuHOxg84hxY1nrI0KBDQOZW+iibqsAjatxBPSpFsvf5wTQJD7tEH7rRv086TgEtQfJVTOMBB7jAyyoCzmhmRgxo+VIuBw5l78ztbaHMFjabTigCvRpmM0DDWSWSx7z/wBoiLMnqPqHm4nOHydcQMHLC9bLGvjQeKU4eGrCZcceEsm2KVl4vql/ABqBb9M6vxZoMfnRUTeBkLok/Icm0rhcFhB59qRKC1qyE1CIUdBc603JQ8i6HeoII5Tzri4NBQWCHMcO8zuQPAbW+eAgchuvAgLkgsCAwEAAaOByjCBxzAdBgNVHQ4EFgQURhuUud5cUTkfvLwkK63XbLFXBYcwHwYDVR0jBBgwFoAULWkAu6H0zI4DoiWDksnSY+HZRLgwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5odHRwOi8vb2NzcC10ZXN0cmVmLnJvb3QtY2EudGktZGllbnN0ZS5kZS9vY3NwMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMBUGA1UdIAQOMAwwCgYIKoIUAEwEgSMwDQYJKoZIhvcNAQELBQADggEBAFOsB0UhYEjTSM0gn2qzOB/sOHqRI0o03qRgPfzRkaxNwoDcUZc0H0gQ7SLwUwTNAALDPxp2XNOyPSUVhnEga8vyw5T1RWXggkbLP0OoLxBaSY/EpEbHsIAcjcNLRWfHkCpZUSvV0ip0OPgh9G4ES0Fkrt7sreAEKcEHaQBtdCZgGNBZKm0nI5crH/Ur1gJ1GQgQM62wTWcgr7dm6D+NBFWzD91TBjAVl9LxASlkem69CRHQgy91XV4LRLVjPG9CJi58FFCNWn5bi4i7Gu5c8wl/V+AUGVBJMDNH8CgIL7GmiLNbX8praHJqDXHjZtsIKoGC2rfeEemxgOQ2wwwUHsw=</X509Certificate>
-							</DigitalId>
-						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2020-08-05T14:01:00Z</StatusStartingTime>
-						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://download-testref.crl.ti-dienste.de/crl/vpnk-ecc.crl</ServiceSupplyPoint>
-						</ServiceSupplyPoints>
-						<ServiceInformationExtensions>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.165</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_vpnk_vpn_sis</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.81</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_vpnk_vpn</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -1116,20 +1084,12 @@
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.283</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_osig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.175</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cm_tls_c</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.80</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_nk_vpn</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.155</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_aut</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.287</ns:ExtensionOID>
@@ -1144,20 +1104,12 @@
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_enc</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.301</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.157</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zd_tls_s</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.168</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.300</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_sig</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.113</ns:ExtensionOID>
@@ -1174,34 +1126,6 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.79</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_ak_aut</ns:ExtensionValue>
-							</Extension>
-						</ServiceInformationExtensions>
-					</ServiceInformation>
-				</TSPService>
-				<TSPService>
-					<ServiceInformation>
-						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
-						<ServiceName>
-							<Name xml:lang="DE">CN=GEM.VPNK-CA54 TEST-ONLY,OU=VPN-Zugangsdienst-CA der Telematikinfrastruktur,O=gematik GmbH NOT-VALID,C=DE</Name>
-						</ServiceName>
-						<ServiceDigitalIdentity>
-							<DigitalId>
-								<X509Certificate>MIIEhDCCA2ygAwIBAgIBHzANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yMTExMjMxMDMwMzBaFw0yOTExMjExMDMwMjlaMIGKMQswCQYDVQQGEwJERTEfMB0GA1UECgwWZ2VtYXRpayBHbWJIIE5PVC1WQUxJRDE4MDYGA1UECwwvVlBOLVp1Z2FuZ3NkaWVuc3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxIDAeBgNVBAMMF0dFTS5WUE5LLUNBNTQgVEVTVC1PTkxZMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA86QdSA+5ZvO/IAu+wH/YQIpe+yPCB/0Ryb5y9dQ3g+flm4OsmNKwnNu9GMU4erN6pr/RtWn/62SwTJ09tmvGaqAtCvPSpsK1TVAwtB+juXdGxBWuSyNbCvgFGMj6U8qG7/LKCKHJdB1l9+W8KnFzxuUloCyZ3//ousHyXHACIWG3mbm7yIzR0yJWrpLxh8bddswpGs5vy8PpR6Q7VkyzbemHvcByihdd2csuhA/yzQXhINf32lQ/99wrJfkUcTbsu08DKYgykTI+legHRHlYVjerg3EYnVe1vnRZZLBO0gC7+3K8bnzOaJaWRRW6PnpODDFZvPgFzDzllmonoHfW9wIDAQABo4H7MIH4MB0GA1UdDgQWBBS9xlKO1NmUHOZjJWP5qzvOPb0DGTAfBgNVHSMEGDAWgBRM9+BlWFWY5jmLyAd1PUymcCzPKTBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMBIGA1UdEwEB/wQIMAYBAf8CAQAwDQYJKoZIhvcNAQELBQADggEBAG6JHsfOcE9CAbsN3ocIEXCte5PwniMIn6q5a5AGZSmn0uELWNOU012Cj7SOlTuALMWY9o/yErGDFYzEQFSumVwBJh35pLSzyaeS5x0F2Ca2J1An4+T2Hw65Ckah844I7osr3D5pTXPAYCr6kiRWl4o5yk18ffB7qiImvUUmntX12T1gIR3pBaAezBrpWHiqvxGGOE+2eLGl/BjIdmjJsiUutTF5kK3XQbXs4+QJU5aw+wU6ITDDxt5ZNSFqIcLk4smO4VVLElJZ9yz2rD6PYzBjcQajhpJ5UcuW8miCl/SI26pZN3Za7reECKaIPPh4TroOX3iVccQ7dzMi6WbbxM8=</X509Certificate>
-							</DigitalId>
-						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2021-11-23T12:33:00Z</StatusStartingTime>
-						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://download-testref.crl.ti-dienste.de/crl/vpnk-ecc.crl</ServiceSupplyPoint>
-						</ServiceSupplyPoints>
-						<ServiceInformationExtensions>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.165</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_vpnk_vpn_sis</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.81</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_vpnk_vpn</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -3298,6 +3222,30 @@
 			<TSPServices>
 				<TSPService>
 					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-OCSP13 TEST-ONLY,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICiDCCAi+gAwIBAgIBATAKBggqhkjOPQQDAjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTEzIFRFU1QtT05MWTAeFw0yNjA2MDIxMjEyNTlaFw0zMTA2MDIxMjEyNTlaMGsxCzAJBgNVBAYTAkRFMTMwMQYDVQQKDCpBdG9zIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kgR21iSCBOT1QtVkFMSUQxJzAlBgNVBAMMHkFUT1MuRUdLLUFMVkktT0NTUDEzIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAASC+InaJw0LdwaOC3UYX7wHlbRVjxrUxJIp8shWmFW9LkeAJzTgSxNIF5K65se0x/Q8x2V8rEghVdGDPukdwPPTo4GNMIGKMB0GA1UdDgQWBBReQ6e9EyYEohk8lZxpCSp7Vs4IMDAOBgNVHQ8BAf8EBAMCBkAwDAYDVR0TAQH/BAIwADAVBgNVHSAEDjAMMAoGCCqCFABMBIEjMB8GA1UdIwQYMBaAFIG1jcfIxbZLjuYVQJrEYQyK5NXBMBMGA1UdJQQMMAoGCCsGAQUFBwMJMAoGCCqGSM49BAMCA0cAMEQCIEKI4EEU/GV0nUBl6UoYcZPV++kp4Oz5l5Imyhu1Zxm0AiB00ShFV4z2KlrAC8EzVnEQ6FGWeNK3e67Gs+MT4/40CA==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2026-06-02T12:13:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp00.gematik.invalid/not-used</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.124</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tsl_placeholder</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
 						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
 						<ServiceName>
 							<Name xml:lang="DE">CN=ATOS.HBA-CA8 TEST-ONLY,OU=Heilberufsausweis-CA der Telematikinfrastruktur,O=Atos Information Technology GmbH NOT-VALID,C=DE</Name>
@@ -3400,6 +3348,34 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.78</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_smc_b_osig</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=ATOS.EGK-ALVI-CA13 TEST-ONLY,OU=eGK alternative Vers-Ident-CA der Telematikinfrastruktur,O=Eviden Germany GmbH NOT-VALID,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDDzCCArWgAwIBAgIBEDAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxHDAaBgNVBAMME0dFTS5SQ0ExMSBURVNULU9OTFkwHhcNMjYwNTI4MTMyMDA2WhcNMzQwNTI2MTMyMDA1WjCBnzELMAkGA1UEBhMCREUxJjAkBgNVBAoMHUV2aWRlbiBHZXJtYW55IEdtYkggTk9ULVZBTElEMUEwPwYDVQQLDDhlR0sgYWx0ZXJuYXRpdmUgVmVycy1JZGVudC1DQSBkZXIgVGVsZW1hdGlraW5mcmFzdHJ1a3R1cjElMCMGA1UEAwwcQVRPUy5FR0stQUxWSS1DQTEzIFRFU1QtT05MWTBaMBQGByqGSM49AgEGCSskAwMCCAEBBwNCAASGov9W51ZEdharIemiQPR5cKi+BppIv8GMXHDcceyspmpHPocRBOeMZfFvzi5GoaFMtvobax7n95eDyzXqf0Dpo4H7MIH4MB0GA1UdDgQWBBSBtY3HyMW2S47mFUCaxGEMiuTVwTAfBgNVHSMEGDAWgBQCChYm6fNfQmIp7pySiwUzl95yFDBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMBIGA1UdEwEB/wQIMAYBAf8CAQAwCgYIKoZIzj0EAwIDSAAwRQIgBOsuIPcUHphbGiJLn4hkD2XBFyW4tvLfH4AL7hv/iLYCIQCMo3C6bN1Yj1j8stXckgrMQZ1UeqkAMUzfnnenMp5qnw==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2026-05-28T13:21:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://ocsp1-testref.atos.tsp-egk.telematik-test</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.212</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_aut_alt</ns:ExtensionValue>
+							</Extension>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.67</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_egk_sig</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -9395,10 +9371,6 @@
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.283</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_osig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.175</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cm_tls_c</ns:ExtensionValue>
 							</Extension>
@@ -9411,24 +9383,12 @@
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_nk_vpn</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.155</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_aut</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.202</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_enc</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.301</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.169</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_s</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.300</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_sig</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.113</ns:ExtensionOID>
@@ -9485,34 +9445,6 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.78</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_smc_b_osig</ns:ExtensionValue>
-							</Extension>
-						</ServiceInformationExtensions>
-					</ServiceInformation>
-				</TSPService>
-				<TSPService>
-					<ServiceInformation>
-						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
-						<ServiceName>
-							<Name xml:lang="DE">CN=GEM.VPNK-CA41 TEST-ONLY,OU=VPN-Zugangsdienst-CA der Telematikinfrastruktur,O=gematik GmbH NOT-VALID,C=DE</Name>
-						</ServiceName>
-						<ServiceDigitalIdentity>
-							<DigitalId>
-								<X509Certificate>MIIEhDCCA2ygAwIBAgIBFzANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxNDAyBgNVBAsMK1plbnRyYWxlIFJvb3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxGzAZBgNVBAMMEkdFTS5SQ0E2IFRFU1QtT05MWTAeFw0yMTExMDgxNDM1MDFaFw0yOTExMDYxNDM1MDBaMIGKMQswCQYDVQQGEwJERTEfMB0GA1UECgwWZ2VtYXRpayBHbWJIIE5PVC1WQUxJRDE4MDYGA1UECwwvVlBOLVp1Z2FuZ3NkaWVuc3QtQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIxIDAeBgNVBAMMF0dFTS5WUE5LLUNBNDEgVEVTVC1PTkxZMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuv7T/C9bmXb8UrCq365MT1aS5SVU+vFWFXp+zkgVso4Z2+aVdF5nIlK2bDsV6cGmcqybOS+ehxdqoJ6qTcwE+4cDCXjImxScgIBQGswaeT3Dsw0GBOlbUer56ZzoF2Ldo737mV5oR5FV6AtASC70+CFveRtiE85CWtgqmzO9nDhdGsvArIkiEQZofDJsKAaPWSis1d9OU3EZ22ajDyNO4BYsZz5In4n28eyVGdT7mgPuog1ZHcO/JzL5VpAgVIZgDpPvpnmt2FtgcfOxYof0v5Vf2kWqEV1CX/NoVoWdSqTkcreobB954RUur9eCeenXOrqjtEFVvekrI52A2cVKcwIDAQABo4H7MIH4MB0GA1UdDgQWBBTZzhbvCbvX9dZg1Z9PynwvN5hO9jAfBgNVHSMEGDAWgBRM9+BlWFWY5jmLyAd1PUymcCzPKTBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAGGLmh0dHA6Ly9vY3NwLXRlc3RyZWYucm9vdC1jYS50aS1kaWVuc3RlLmRlL29jc3AwDgYDVR0PAQH/BAQDAgEGMEYGA1UdIAQ/MD0wOwYIKoIUAEwEgSMwLzAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5nZW1hdGlrLmRlL2dvL3BvbGljaWVzMBIGA1UdEwEB/wQIMAYBAf8CAQAwDQYJKoZIhvcNAQELBQADggEBAKeen/ziTW0vKdJswnh3/dY7JPjPBu1tR7r4oTrfo5ujKYnvMr/x/ko9jImTCCqhdUaQdm065d7ia8yfKEQBEKYBU1q34x1gixUpf0U4Bi2pUgtO6OMvlIBblX87XGPSv4mK9SIf71ekj8fjgQqq7IIn6IAxyYJdIvJ9TIBSQoRzNpyBAd5QsFU1s9mBDKZnWfa5JZoreO2q8A69XFvY2ReNy4Kj4WNh7/CeipFkE8kpU71JBaQ+4ytu7CshsSjeUCm8LpIMeQt0jT1HGAD7T1XudzIDhwgwT1wmDs0Q+V6tTuXKcMHyPA43169vJkzZlOne32yAafdYuyC0qA4y/gU=</X509Certificate>
-							</DigitalId>
-						</ServiceDigitalIdentity>
-						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
-						<StatusStartingTime>2021-11-08T16:45:00Z</StatusStartingTime>
-						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://download-testref.crl.ti-dienste.de/crl/vpnk-ecc.crl</ServiceSupplyPoint>
-						</ServiceSupplyPoints>
-						<ServiceInformationExtensions>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.165</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_vpnk_vpn_sis</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.81</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_vpnk_vpn</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -9831,20 +9763,12 @@
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.283</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_osig</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.175</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_cm_tls_c</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.80</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_nk_vpn</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.155</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_aut</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.287</ns:ExtensionOID>
@@ -9859,10 +9783,6 @@
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_enc</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.301</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_enc</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.113</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_sak_aut</ns:ExtensionValue>
 							</Extension>
@@ -9873,10 +9793,6 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.168</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_fd_tls_c</ns:ExtensionValue>
-							</Extension>
-							<Extension Critical="false">
-								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.300</ns:ExtensionOID>
-								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_hsk_sig</ns:ExtensionValue>
 							</Extension>
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.82</ns:ExtensionOID>
@@ -9987,7 +9903,7 @@
 						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
 						<StatusStartingTime>2026-06-28T08:26:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
-							<ServiceSupplyPoint>http://127.0.0.1:8083/ocsp</ServiceSupplyPoint>
+							<ServiceSupplyPoint>http://cert-mock.zeta.test/ecc-ocsp</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
@@ -10125,28 +10041,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1780405422346">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1781391619074">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1780405422342" URI="">
+			<ds:Reference Id="Reference-TSL-1781391619070" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>4WB3F/0j6r7J1PofBaPAETV0kkHIgtrQUSwgIt2ol9U=</ds:DigestValue>
+				<ds:DigestValue>mNyvxQHTxGN7FKH8nWIoB8uIwoXAFiHcmzrjukQCuxY=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1780405422346" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1780405422346">
+			<ds:Reference Id="Reference-SignedProperties-1781391619074" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1781391619074">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>NBYiseiImLlrl6lo26ptgiAkTinUdT6ZwKCB5TJs5dc=</ds:DigestValue>
+				<ds:DigestValue>efF5xBxv5DikprtnVbX8gcf1Oi+pQEnkr5iZDUhahRg=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>IFiFeNrqDOAxcVRsgDxn/TAsV/ihLpS0Fyw+9nBTxzmN+//AUHpN02ZjhpYoPpRinxZ84GEierVQ
-sYzQ8NDfMA==</ds:SignatureValue>
+		<ds:SignatureValue>SZdbu2wzn4wP95Mjw9MljvmULZ1WME1AKdO2WeQJKwiOW6+GDwvg3EtvgSuMrg8HDFIxpBrktWpL
+lrMV5JMajQ==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICnDCCAkOgAwIBAgIBBjAKBggqhkjOPQQDAjCBgjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdl
@@ -10164,10 +10080,10 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1780405422346">
-				<xades:SignedProperties Id="SignedProperties-1780405422346">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1781391619074">
+				<xades:SignedProperties Id="SignedProperties-1781391619074">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2026-06-02T13:03:42Z</xades:SigningTime>
+						<xades:SigningTime>2026-06-13T23:00:19Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -10182,7 +10098,7 @@ xl6/Vrbq56t7ongCIEUOk2KRHPLaK48tEH5Cch6aNt2mydw0RPBq/jjdZ1kd</ds:X509Certificate
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1780405422342">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1781391619070">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
