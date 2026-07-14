@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31032520260708085154Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="ID31032620260713230007Z" TSLTag="http://uri.etsi.org/02231/TSLTag">
 	<SchemeInformation>
 		<TSLVersionIdentifier>3</TSLVersionIdentifier>
-		<TSLSequenceNumber>10325</TSLSequenceNumber>
+		<TSLSequenceNumber>10326</TSLSequenceNumber>
 		<TSLType>http://uri.etsi.org/TrstSvc/TSLtype/generic</TSLType>
 		<SchemeOperatorName>
 			<Name xml:lang="DE">gematik GmbH</Name>
@@ -46,9 +46,9 @@
 				</AdditionalInformation>
 			</OtherTSLPointer>
 		</PointersToOtherTSL>
-		<ListIssueDateTime>2026-07-08T08:51:54Z</ListIssueDateTime>
+		<ListIssueDateTime>2026-07-13T23:00:07Z</ListIssueDateTime>
 		<NextUpdate>
-			<dateTime>2026-08-07T08:51:54Z</dateTime>
+			<dateTime>2026-08-12T23:00:07Z</dateTime>
 		</NextUpdate>
 	</SchemeInformation>
 	<TrustServiceProviderList>
@@ -231,6 +231,30 @@
 							<Extension Critical="false">
 								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.78</ns:ExtensionOID>
 								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_smc_b_osig</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=tsp.medisign.de,SERIALNUMBER=10001-CFDTLSC,O=medisign GmbH,C=DE</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIDFTCCArqgAwIBAgIDB2EFMAoGCCqGSM49BAMCMG8xCzAJBgNVBAYTAkRFMRUwEwYDVQQKDAxnZW1hdGlrIEdtYkgxMjAwBgNVBAsMKUtvbXBvbmVudGVuLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMRUwEwYDVQQDDAxHRU0uS09NUC1DQTgwHhcNMjYwNjE4MTA0NzA4WhcNMzEwNjE3MTA0NzA3WjBXMQswCQYDVQQGEwJERTEWMBQGA1UECgwNbWVkaXNpZ24gR21iSDEWMBQGA1UEBRMNMTAwMDEtQ0ZEVExTQzEYMBYGA1UEAwwPdHNwLm1lZGlzaWduLmRlMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhOK3rpTLoStY+LGeWNeS7KesogwTc6w4COos4TtVqaP8sGoQmi3HenJPvH0B549VDmHrscJYqdua02ut3wyHJaOCAVswggFXMB0GA1UdDgQWBBSVtQHRF0lfPcywxMX4edfSoPePmDAfBgNVHSMEGDAWgBT4buDJgny6hHcPBsNaofxUKYn/QDBFBggrBgEFBQcBAQQ5MDcwNQYIKwYBBQUHMAGGKWh0dHA6Ly9kb3dubG9hZC5jcmwudGktZGllbnN0ZS5kZS9vY3NwL2VjMA4GA1UdDwEB/wQEAwIHgDAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIEoMBoGA1UdEQQTMBGCD3RzcC5tZWRpc2lnbi5kZTAMBgNVHRMBAf8EAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMCMFwGBSskCAMDBFMwUTBPME0wSzBJMDsMOVRlY2huaXNjaGUgWmVydGlmaWthdHNhdXNnYWJlc3RlbGxlIGVpbmVzIEFuYmlldGVycyBTTUMtQjAKBggqghQATASCNjAKBggqhkjOPQQDAgNJADBGAiEArY1fCpeZbZcJKcJnGzprZS1fjbGO3XnsXJRkGCApjfECIQDOTEEAIRkF+fIVGvs0HJ9Mb0xWSsZkO+iSNCFK9ie9hQ==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2026-06-18T10:48:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://tsp.medisign.de</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.310</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_zert_smb</ns:ExtensionValue>
 							</Extension>
 						</ServiceInformationExtensions>
 					</ServiceInformation>
@@ -908,6 +932,59 @@
 						<StatusStartingTime>2026-03-25T07:01:00Z</StatusStartingTime>
 						<ServiceSupplyPoints>
 							<ServiceSupplyPoint>https://hsmb.ti-gateway.akquinet.de</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<ServiceInformationExtensions>
+							<Extension Critical="false">
+								<ns:ExtensionOID xmlns:ns="http://uri.etsi.org/02231/v2#">1.2.276.0.76.4.309</ns:ExtensionOID>
+								<ns:ExtensionValue xmlns:ns="http://uri.etsi.org/02231/v2#">oid_tigw_zugm</ns:ExtensionValue>
+							</Extension>
+						</ServiceInformationExtensions>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="DE">RISE GmbH</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="DE">RISE GmbH</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="de-DE">
+							<StreetAddress>Concorde Business Park F</StreetAddress>
+							<Locality>Schwechat</Locality>
+							<StateOrProvince>Niederösterreich</StateOrProvince>
+							<PostalCode>2320</PostalCode>
+							<CountryName>Österreich</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI>mailto:rsd@rise-world.com</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="DE">https://www.rise-ti.de/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/unspecified</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="DE">CN=smb.ti-gateway.de,SERIALNUMBER=00002-V01,O=RISE GmbH,C=AT</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIC7jCCApSgAwIBAgIDBzSjMAoGCCqGSM49BAMCMG8xCzAJBgNVBAYTAkRFMRUwEwYDVQQKDAxnZW1hdGlrIEdtYkgxMjAwBgNVBAsMKUtvbXBvbmVudGVuLUNBIGRlciBUZWxlbWF0aWtpbmZyYXN0cnVrdHVyMRUwEwYDVQQDDAxHRU0uS09NUC1DQTgwHhcNMjYwNTE5MTMyMzEyWhcNMzEwNTE4MTMyMzExWjBRMQswCQYDVQQGEwJBVDESMBAGA1UECgwJUklTRSBHbWJIMRIwEAYDVQQFEwkwMDAwMi1WMDExGjAYBgNVBAMMEXNtYi50aS1nYXRld2F5LmRlMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUpFlRxmPnlPopcZxyg3LtqFxVFW1SVQbjjjULwqat7fgxHJOrnYYQp/Tmzmm5D05D+CyR5tojZxUOMMKMZDmN6OCATswggE3MB0GA1UdDgQWBBSASfT6f7jU6ovs55tJDrjwQvQtljAfBgNVHSMEGDAWgBT4buDJgny6hHcPBsNaofxUKYn/QDBFBggrBgEFBQcBAQQ5MDcwNQYIKwYBBQUHMAGGKWh0dHA6Ly9kb3dubG9hZC5jcmwudGktZGllbnN0ZS5kZS9vY3NwL2VjMA4GA1UdDwEB/wQEAwIHgDAhBgNVHSAEGjAYMAoGCCqCFABMBIEjMAoGCCqCFABMBIEpMBwGA1UdEQQVMBOCEXNtYi50aS1nYXRld2F5LmRlMAwGA1UdEwEB/wQCMAAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwOgYFKyQIAwMEMTAvMC0wKzApMCcwGQwXVEktR2F0ZXdheSBadWdhbmdzbW9kdWwwCgYIKoIUAEwEgjUwCgYIKoZIzj0EAwIDSAAwRQIhAPBLV1M1hxKE4BrkFH6zAP5gtifuxucsapwAzoNKSNuYAiBjtcxLf1PgGu7WsJeyEa4TF5f5Yiqn5doZyKIPRQ2kRg==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>http://uri.etsi.org/TrstSvc/Svcstatus/inaccord</ServiceStatus>
+						<StatusStartingTime>2026-05-19T13:24:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://smb.ti-gateway.de</ServiceSupplyPoint>
 						</ServiceSupplyPoints>
 						<ServiceInformationExtensions>
 							<Extension Critical="false">
@@ -8126,28 +8203,28 @@
 			</TSPServices>
 		</TrustServiceProvider>
 	</TrustServiceProviderList>
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1783500714603">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1783983608070">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-			<ds:Reference Id="Reference-TSL-1783500714594" URI="">
+			<ds:Reference Id="Reference-TSL-1783983608067" URI="">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>RWOQbeOuA7vR/hlZrP6RfIQQsbaXmC4ZV7ayDKwZ9p4=</ds:DigestValue>
+				<ds:DigestValue>6JKJrvBZwclKpTWQ3NAmN/CbIjQyOH443n5gBX0mlPc=</ds:DigestValue>
 			</ds:Reference>
-			<ds:Reference Id="Reference-SignedProperties-1783500714603" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1783500714603">
+			<ds:Reference Id="Reference-SignedProperties-1783983608070" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1783983608070">
 				<ds:Transforms>
 					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 				</ds:Transforms>
 				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-				<ds:DigestValue>lTzryhLWkthJItCglzyvnRVYbiDf2s59LrMnJHMUS7E=</ds:DigestValue>
+				<ds:DigestValue>M5oU1u883OxsApXlsaqvvaHjbuDw4JJtRyLVIm4ELFk=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>iSE67jH7N2rGR8a24ecC/jAwMowr0Cf867w0gbUWmbOE1wNrWZayA7VRVhjEdLzAxPZEIamMxAcF
-ufEQKYipsQ==</ds:SignatureValue>
+		<ds:SignatureValue>gdDmtU/92XbkpNA1flfJhIcBlJXOvF8DNnc25Mbzf5lwmg7ufdZFw/eP46WjlaXH+rsmVEKYuCLr
+Bs6IQYsBNA==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
 				<ds:X509Certificate>MIICajCCAhCgAwIBAgIBBjAKBggqhkjOPQQDAjBtMQswCQYDVQQGEwJERTEVMBMGA1UECgwMZ2Vt
@@ -8164,10 +8241,10 @@ qaLK4zFc8FTsYzYmfbnPpATXAiA0EMb+jIf5YvHh58Y05RrlfqsOr6MNQfIxXRzrzFy2eA==</ds:X50
 			</ds:X509Data>
 		</ds:KeyInfo>
 		<ds:Object>
-			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1783500714603">
-				<xades:SignedProperties Id="SignedProperties-1783500714603">
+			<xades:QualifyingProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1783983608070">
+				<xades:SignedProperties Id="SignedProperties-1783983608070">
 					<xades:SignedSignatureProperties>
-						<xades:SigningTime>2026-07-08T08:51:54Z</xades:SigningTime>
+						<xades:SigningTime>2026-07-13T23:00:08Z</xades:SigningTime>
 						<xades:SigningCertificate>
 							<xades:Cert>
 								<xades:CertDigest>
@@ -8182,7 +8259,7 @@ qaLK4zFc8FTsYzYmfbnPpATXAiA0EMb+jIf5YvHh58Y05RrlfqsOr6MNQfIxXRzrzFy2eA==</ds:X50
 						</xades:SigningCertificate>
 					</xades:SignedSignatureProperties>
 					<xades:SignedDataObjectProperties>
-						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1783500714594">
+						<xades:DataObjectFormat ObjectReference="#Reference-TSL-1783983608067">
 							<xades:MimeType>text/xml</xades:MimeType>
 						</xades:DataObjectFormat>
 					</xades:SignedDataObjectProperties>
